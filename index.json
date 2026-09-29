@@ -1,0 +1,3437 @@
+{
+ "schemaVersion": 1,
+ "release": "maps-2026-09",
+ "baseUrl": "https://github.com/r-magnus/fred-maps/releases/download/maps-2026-09/",
+ "states": {
+  "AK": {
+   "bytes": 1267054569,
+   "builtAt": "2026-09-26T15:40:53.749Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-AK-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-AK.pmtiles",
+     "asset": "AK--contours-AK.pmtiles",
+     "bytes": 505278376,
+     "sha256": "2496f891c2ab5bc6d8b7b507c8059aa507dd1bc734a9c2ad90e25865e58d907e"
+    },
+    {
+     "path": "coverage-AK-voice.bin",
+     "asset": "AK--coverage-AK-voice.bin",
+     "bytes": 38127,
+     "sha256": "15934f3855680ca1a3b5c6457bfe85b4bf78af9b1d7c2b9d694c076336940a29"
+    },
+    {
+     "path": "map-AK-z14.pmtiles",
+     "asset": "AK--map-AK-z14.pmtiles",
+     "bytes": 755417582,
+     "sha256": "59c041b5d3375adfb8fdd8eb5b5e26367a627913074d1367e6037f02c2811a4c"
+    },
+    {
+     "path": "packs/state-AK-flora-fauna/chunks.sqlite",
+     "asset": "AK--packs__state-AK-flora-fauna__chunks.sqlite",
+     "bytes": 4259840,
+     "sha256": "0aa32343f2082ba79fc09b900933e95b79396c0cc71ef30277e46e4d3f965cc9"
+    },
+    {
+     "path": "packs/state-AK-flora-fauna/manifest.json",
+     "asset": "AK--packs__state-AK-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "383a18202cde2ab31abe1eb72745880efa8385117591b72efd9d7f5ee8d9e814"
+    },
+    {
+     "path": "packs/state-AK-flora-fauna/vectors.i8",
+     "asset": "AK--packs__state-AK-flora-fauna__vectors.i8",
+     "bytes": 2025216,
+     "sha256": "077cd3acab64ca6a40daf789d1bffbd97581f25a6c2e43f42387b1ac3964d9a5"
+    },
+    {
+     "path": "packs/state-AK-flora-fauna/vectors.scale",
+     "asset": "AK--packs__state-AK-flora-fauna__vectors.scale",
+     "bytes": 10548,
+     "sha256": "a5ff134adb66219e3cdec9348bbc25e0dd6ea1cf4a709114765bce32ae8896ea"
+    }
+   ]
+  },
+  "AL": {
+   "bytes": 292831036,
+   "builtAt": "2026-09-26T15:41:25.104Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-AL-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-AL.pmtiles",
+     "asset": "AL--contours-AL.pmtiles",
+     "bytes": 16400774,
+     "sha256": "c4407635e7516d76249efbbe071813e0b7b169cc09e4238ffc1bf14f444dd4cc"
+    },
+    {
+     "path": "coverage-AL-voice.bin",
+     "asset": "AL--coverage-AL-voice.bin",
+     "bytes": 8388,
+     "sha256": "1ca6b7d477ec7a77d50bf2380f0ae68916cf5bb17bd8880c2db2bad7ffcb5b61"
+    },
+    {
+     "path": "map-AL-z14.pmtiles",
+     "asset": "AL--map-AL-z14.pmtiles",
+     "bytes": 270199802,
+     "sha256": "34e138c756cfd5f42a1cdd7c830dbe3ec5029df99939315a8d47df531f48626c"
+    },
+    {
+     "path": "packs/state-AL-flora-fauna/chunks.sqlite",
+     "asset": "AL--packs__state-AL-flora-fauna__chunks.sqlite",
+     "bytes": 4132864,
+     "sha256": "136f62118a78bb15d495d5bbdc768bff7e803fc56731410e4e2301cc58168644"
+    },
+    {
+     "path": "packs/state-AL-flora-fauna/manifest.json",
+     "asset": "AL--packs__state-AL-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "1d4f4bb036708a5077564a880516865fc3e06f14bf2519ef119ab20e59def584"
+    },
+    {
+     "path": "packs/state-AL-flora-fauna/vectors.i8",
+     "asset": "AL--packs__state-AL-flora-fauna__vectors.i8",
+     "bytes": 2053632,
+     "sha256": "9bbd6f7d1b51e0a059a5fae97108ee4d60f103ea7cf30608391948350377c50e"
+    },
+    {
+     "path": "packs/state-AL-flora-fauna/vectors.scale",
+     "asset": "AL--packs__state-AL-flora-fauna__vectors.scale",
+     "bytes": 10696,
+     "sha256": "a917f6beff947f38beecc2f0a288886fe7be2f35a9857aac39e1de009c04d08e"
+    }
+   ]
+  },
+  "AR": {
+   "bytes": 146712949,
+   "builtAt": "2026-09-26T15:41:48.110Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-AR-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-AR.pmtiles",
+     "asset": "AR--contours-AR.pmtiles",
+     "bytes": 13796004,
+     "sha256": "25001bf3adefa19543cc34521efbd4be867b7f598809645469c0bc587a20c5f1"
+    },
+    {
+     "path": "coverage-AR-voice.bin",
+     "asset": "AR--coverage-AR-voice.bin",
+     "bytes": 5983,
+     "sha256": "5a34c685699e371a6b97c6c276a35495469ad7bd72a3a84360e051fe14ec0bb5"
+    },
+    {
+     "path": "map-AR-z14.pmtiles",
+     "asset": "AR--map-AR-z14.pmtiles",
+     "bytes": 126132010,
+     "sha256": "c87f49ef25998be8a3bc64bb0befa5e1e80b033127220dc02a8ed27840ad1c3a"
+    },
+    {
+     "path": "packs/state-AR-flora-fauna/chunks.sqlite",
+     "asset": "AR--packs__state-AR-flora-fauna__chunks.sqlite",
+     "bytes": 4526080,
+     "sha256": "9f56e2b57c0766db3a4d9bba46bb69625040a9a027362dab05c5736114793da9"
+    },
+    {
+     "path": "packs/state-AR-flora-fauna/manifest.json",
+     "asset": "AR--packs__state-AR-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "d51ad59b52352ed63a6428795ac4fcf458f5fd02ea6475a704d22bc471967536"
+    },
+    {
+     "path": "packs/state-AR-flora-fauna/vectors.i8",
+     "asset": "AR--packs__state-AR-flora-fauna__vectors.i8",
+     "bytes": 2216448,
+     "sha256": "2303df2615f51f417a3e987f885a74bc716983ccf282f71685be287a9f44a8bd"
+    },
+    {
+     "path": "packs/state-AR-flora-fauna/vectors.scale",
+     "asset": "AR--packs__state-AR-flora-fauna__vectors.scale",
+     "bytes": 11544,
+     "sha256": "54d23f7a8252470eefe71bb36d05cc82eaa24f918c8db7d13cc432e25d0625d4"
+    }
+   ]
+  },
+  "AZ": {
+   "bytes": 295735232,
+   "builtAt": "2026-09-26T15:42:14.581Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-AZ-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-AZ.pmtiles",
+     "asset": "AZ--contours-AZ.pmtiles",
+     "bytes": 52142447,
+     "sha256": "d51231718de1b8e19edfbb052e2f02d765ad1eb002ec190a31aafafdb72f9b47"
+    },
+    {
+     "path": "coverage-AZ-voice.bin",
+     "asset": "AZ--coverage-AZ-voice.bin",
+     "bytes": 13332,
+     "sha256": "c4e5d84b00ff7810d5bef28c9f623dc8d95d19a679d130499f4e8fd2078cc2ed"
+    },
+    {
+     "path": "map-AZ-z14.pmtiles",
+     "asset": "AZ--map-AZ-z14.pmtiles",
+     "bytes": 232909421,
+     "sha256": "61ab70f6191444c6ded9ce0cb90ece71ddcf61a5f7894490fa49e778beefc6ff"
+    },
+    {
+     "path": "packs/state-AZ-flora-fauna/chunks.sqlite",
+     "asset": "AZ--packs__state-AZ-flora-fauna__chunks.sqlite",
+     "bytes": 7155712,
+     "sha256": "646e2a3d93ee67a60f9d32f7060f925ece61364e08e86b1826a8213ee11314c7"
+    },
+    {
+     "path": "packs/state-AZ-flora-fauna/manifest.json",
+     "asset": "AZ--packs__state-AZ-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "7f51c264c6bea0273fd137c14a8710a6416a957f6014dac35385e9b722b8befd"
+    },
+    {
+     "path": "packs/state-AZ-flora-fauna/vectors.i8",
+     "asset": "AZ--packs__state-AZ-flora-fauna__vectors.i8",
+     "bytes": 3471360,
+     "sha256": "57f383b3e026ab26c4abe630e7f1b3588f7e8240923da19cd7f49e7df76e1be7"
+    },
+    {
+     "path": "packs/state-AZ-flora-fauna/vectors.scale",
+     "asset": "AZ--packs__state-AZ-flora-fauna__vectors.scale",
+     "bytes": 18080,
+     "sha256": "766518092145c8332eea2c8bde7c500fc8ad3cc986e2c6af0d228c73693f16fc"
+    }
+   ]
+  },
+  "CA": {
+   "bytes": 791357248,
+   "builtAt": "2026-09-26T15:42:16.638Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-CA-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-CA.pmtiles",
+     "asset": "CA--contours-CA.pmtiles",
+     "bytes": 136967641,
+     "sha256": "547a5a14688390f9966661005f13a5a111dc9caa1f0ad330b74abdded7edcbdd"
+    },
+    {
+     "path": "coverage-CA-voice.bin",
+     "asset": "CA--coverage-CA-voice.bin",
+     "bytes": 21765,
+     "sha256": "06dcc0804c3ad04487c550e686aef71db6f489f1172a6b4f4819e13a2d0450f4"
+    },
+    {
+     "path": "map-CA-z14.pmtiles",
+     "asset": "CA--map-CA-z14.pmtiles",
+     "bytes": 641305918,
+     "sha256": "84048f0e408b1426ae7fe9a9741db037ecec15f13088f83c8ee0e94b02ece6b4"
+    },
+    {
+     "path": "packs/state-CA-flora-fauna/chunks.sqlite",
+     "asset": "CA--packs__state-CA-flora-fauna__chunks.sqlite",
+     "bytes": 8740864,
+     "sha256": "2d71c429d7caf208c3edcffe755b5cf1d3b694cded31b8b22ade4648b2eef322"
+    },
+    {
+     "path": "packs/state-CA-flora-fauna/manifest.json",
+     "asset": "CA--packs__state-CA-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "29477fcb27a82748e3dd5bf2e89d18bf9dff9fff252cb2af1a8682927cce7a69"
+    },
+    {
+     "path": "packs/state-CA-flora-fauna/vectors.i8",
+     "asset": "CA--packs__state-CA-flora-fauna__vectors.i8",
+     "bytes": 4273920,
+     "sha256": "754d8feba3d0d946b3f9af0228b2213f090e440cf43d9919b5355076cc9320c3"
+    },
+    {
+     "path": "packs/state-CA-flora-fauna/vectors.scale",
+     "asset": "CA--packs__state-CA-flora-fauna__vectors.scale",
+     "bytes": 22260,
+     "sha256": "6d5c74d93b2980ef6e6d1d638277fbed4beb0c90820bfce4d351e88c0b892b4c"
+    }
+   ]
+  },
+  "CO": {
+   "bytes": 315928275,
+   "builtAt": "2026-09-26T15:42:55.521Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-CO-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-CO.pmtiles",
+     "asset": "CO--contours-CO.pmtiles",
+     "bytes": 43505912,
+     "sha256": "bf45b988fc88db9897cceb1bd3276ffb060edf37f9cafcdfdee0ade9bac15626"
+    },
+    {
+     "path": "coverage-CO-voice.bin",
+     "asset": "CO--coverage-CO-voice.bin",
+     "bytes": 17131,
+     "sha256": "13a7df34ed8138c5e2041906989bd347add16d89a5c3a73d6346f221890b3ccb"
+    },
+    {
+     "path": "map-CO-z14.pmtiles",
+     "asset": "CO--map-CO-z14.pmtiles",
+     "bytes": 261201180,
+     "sha256": "c851a7a68efe1c6d9bd24051b13f19de2c8c06150884078c8e59fa9e7549c560"
+    },
+    {
+     "path": "packs/state-CO-flora-fauna/chunks.sqlite",
+     "asset": "CO--packs__state-CO-flora-fauna__chunks.sqlite",
+     "bytes": 7540736,
+     "sha256": "291d56c8e7b605ac09655c43b64ca24e444cb04910b1940d31c6b4b63baae89d"
+    },
+    {
+     "path": "packs/state-CO-flora-fauna/manifest.json",
+     "asset": "CO--packs__state-CO-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "902980ca7ad72b0695d8587f59448c68f16468cffa773f11fb4f68a7cbc17a10"
+    },
+    {
+     "path": "packs/state-CO-flora-fauna/vectors.i8",
+     "asset": "CO--packs__state-CO-flora-fauna__vectors.i8",
+     "bytes": 3619584,
+     "sha256": "90acfc272e98c6691dfd1c5c270a42132e75e99472f990f9281e6f27b289be4c"
+    },
+    {
+     "path": "packs/state-CO-flora-fauna/vectors.scale",
+     "asset": "CO--packs__state-CO-flora-fauna__vectors.scale",
+     "bytes": 18852,
+     "sha256": "8b6155b0e25e395f17e45aef8ad7c49348e913f57580cc1ca21d0c0a6d5f4c92"
+    }
+   ]
+  },
+  "CT": {
+   "bytes": 132807936,
+   "builtAt": "2026-09-26T15:43:00.495Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-CT-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-CT.pmtiles",
+     "asset": "CT--contours-CT.pmtiles",
+     "bytes": 2416679,
+     "sha256": "ca627c5ac2c7244283500dbb6adab456cac33cac9f0497d9259e6d4a747f1b0e"
+    },
+    {
+     "path": "coverage-CT-voice.bin",
+     "asset": "CT--coverage-CT-voice.bin",
+     "bytes": 883,
+     "sha256": "2db9da59dcb757f4bb52d490ea6eab11c5bb03876d73f3ca2ff63c917a3eddbd"
+    },
+    {
+     "path": "map-CT-z14.pmtiles",
+     "asset": "CT--map-CT-z14.pmtiles",
+     "bytes": 121910610,
+     "sha256": "a9994cc527a9fcb43026f33c6dac677381ea63303417f4a5a8e1e306123d322d"
+    },
+    {
+     "path": "packs/state-CT-flora-fauna/chunks.sqlite",
+     "asset": "CT--packs__state-CT-flora-fauna__chunks.sqlite",
+     "bytes": 5693440,
+     "sha256": "b745448cfe353766a34a539b756c95fce50ec8c1b1bcb9624c5540e65c895133"
+    },
+    {
+     "path": "packs/state-CT-flora-fauna/manifest.json",
+     "asset": "CT--packs__state-CT-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "ff616d68c884d5c852f80d7b1a525a2b0be6d3b197bb84ab58fb7a34eef4ce78"
+    },
+    {
+     "path": "packs/state-CT-flora-fauna/vectors.i8",
+     "asset": "CT--packs__state-CT-flora-fauna__vectors.i8",
+     "bytes": 2747136,
+     "sha256": "0432898518e1e66306708625fd99b50dca327fa3c69aafeb9610f88b75193813"
+    },
+    {
+     "path": "packs/state-CT-flora-fauna/vectors.scale",
+     "asset": "CT--packs__state-CT-flora-fauna__vectors.scale",
+     "bytes": 14308,
+     "sha256": "b0cad37727da40da5546a4d80145f127efaca07d1c1d780d9977b5e0b9d60171"
+    }
+   ]
+  },
+  "DC": {
+   "bytes": 29515485,
+   "builtAt": "2026-09-26T15:43:00.653Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    }
+   },
+   "missing": [
+    "flora"
+   ],
+   "files": [
+    {
+     "path": "contours-DC.pmtiles",
+     "asset": "DC--contours-DC.pmtiles",
+     "bytes": 240587,
+     "sha256": "cee9585884f802d09f729b52884b7a8dd8bb5357cfeac3c30de3fe53a55e0e24"
+    },
+    {
+     "path": "coverage-DC-voice.bin",
+     "asset": "DC--coverage-DC-voice.bin",
+     "bytes": 206,
+     "sha256": "f722ba0ba5670ef6fac455bab80f6787e2ee02eacbd2f99502f4acdc711bfce3"
+    },
+    {
+     "path": "map-DC-z14.pmtiles",
+     "asset": "DC--map-DC-z14.pmtiles",
+     "bytes": 29274692,
+     "sha256": "eafdea06fcbf5caf2144769470423f2edfa20d62385552bb7f2e8cc4ec74b78a"
+    }
+   ]
+  },
+  "DE": {
+   "bytes": 56376460,
+   "builtAt": "2026-09-26T15:43:04.405Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-DE-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-DE.pmtiles",
+     "asset": "DE--contours-DE.pmtiles",
+     "bytes": 230678,
+     "sha256": "d80af8b6c57128002b8704b96fabc1f0bfcd669f3f9d78f80913b40f96b71110"
+    },
+    {
+     "path": "coverage-DE-voice.bin",
+     "asset": "DE--coverage-DE-voice.bin",
+     "bytes": 674,
+     "sha256": "d38e7f625a962f2de041487f0df20ef3ebd1bd0f0f864ddf98699a3418250ef1"
+    },
+    {
+     "path": "map-DE-z14.pmtiles",
+     "asset": "DE--map-DE-z14.pmtiles",
+     "bytes": 49072640,
+     "sha256": "2473e426a2bf29d155913a94b814f8d50fc25ed0b77fd09304bd30576c05180f"
+    },
+    {
+     "path": "packs/state-DE-flora-fauna/chunks.sqlite",
+     "asset": "DE--packs__state-DE-flora-fauna__chunks.sqlite",
+     "bytes": 4743168,
+     "sha256": "732c6164e512c5662c2c409073e970d74bc1b0ace026fef9dbb39785d126d0a1"
+    },
+    {
+     "path": "packs/state-DE-flora-fauna/manifest.json",
+     "asset": "DE--packs__state-DE-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "64acddab63b15d5a54bfb3e3bbbd75bfb238933d5675b3403aca41d9cfa69efe"
+    },
+    {
+     "path": "packs/state-DE-flora-fauna/vectors.i8",
+     "asset": "DE--packs__state-DE-flora-fauna__vectors.i8",
+     "bytes": 2292480,
+     "sha256": "0a2ec352fbaba75c2d0c40019248fa29fbf59b1a45a60535ad2cea32543e389c"
+    },
+    {
+     "path": "packs/state-DE-flora-fauna/vectors.scale",
+     "asset": "DE--packs__state-DE-flora-fauna__vectors.scale",
+     "bytes": 11940,
+     "sha256": "2e1d3539e68fa0321c0eef7e0f47dbf670f8cd28e77435a4012ed66a1e4a7d3f"
+    }
+   ]
+  },
+  "FL": {
+   "bytes": 622791829,
+   "builtAt": "2026-09-26T15:43:33.577Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-FL-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-FL.pmtiles",
+     "asset": "FL--contours-FL.pmtiles",
+     "bytes": 1789545,
+     "sha256": "d9617955d41f7ed20115651f7837c998da6cd289c29a059edb3f9d7aaa67e9c3"
+    },
+    {
+     "path": "coverage-FL-voice.bin",
+     "asset": "FL--coverage-FL-voice.bin",
+     "bytes": 9523,
+     "sha256": "076f54befc2c6eee5d1b99aa91909fdfac1b1e1523e84c7c79b2d0c172baca7b"
+    },
+    {
+     "path": "map-FL-z14.pmtiles",
+     "asset": "FL--map-FL-z14.pmtiles",
+     "bytes": 615434322,
+     "sha256": "5690980471651d96f91a69927ba22d13286f296257efda46200db2e71a89012a"
+    },
+    {
+     "path": "packs/state-FL-flora-fauna/chunks.sqlite",
+     "asset": "FL--packs__state-FL-flora-fauna__chunks.sqlite",
+     "bytes": 3682304,
+     "sha256": "be8d50c2aa796cd575cbe0700de07dd33da2fc15c95310651d034e7f9e23c8d1"
+    },
+    {
+     "path": "packs/state-FL-flora-fauna/manifest.json",
+     "asset": "FL--packs__state-FL-flora-fauna__manifest.json",
+     "bytes": 24879,
+     "sha256": "3ac6e2f0d4bf0909f03efa334f2ff3cc0cf784e64eb42161e9ecd2d7e6f48c25"
+    },
+    {
+     "path": "packs/state-FL-flora-fauna/vectors.i8",
+     "asset": "FL--packs__state-FL-flora-fauna__vectors.i8",
+     "bytes": 1841664,
+     "sha256": "eb1942bbb49f59ec7259ec1505b5410388fbbda2bb72cab5a98caea461ea3dce"
+    },
+    {
+     "path": "packs/state-FL-flora-fauna/vectors.scale",
+     "asset": "FL--packs__state-FL-flora-fauna__vectors.scale",
+     "bytes": 9592,
+     "sha256": "2e60e132ee63773f289291fdcbc82aabc863785a2fb0856e04ec167af9345fe8"
+    }
+   ]
+  },
+  "GA": {
+   "bytes": 415193758,
+   "builtAt": "2026-09-26T15:44:06.462Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-GA-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-GA.pmtiles",
+     "asset": "GA--contours-GA.pmtiles",
+     "bytes": 16308057,
+     "sha256": "af71a59e682f30e853ea27a6712b7eef266e91b5754e4fc67188376288cbe8b8"
+    },
+    {
+     "path": "coverage-GA-voice.bin",
+     "asset": "GA--coverage-GA-voice.bin",
+     "bytes": 7985,
+     "sha256": "2facb46445c19d4e9ad41f3e0c412a05654054e9a0d7db74d12bfe9200467951"
+    },
+    {
+     "path": "map-GA-z14.pmtiles",
+     "asset": "GA--map-GA-z14.pmtiles",
+     "bytes": 391727640,
+     "sha256": "ff2f1cde76fc4f93dcb024b4bc266e7682a7496f8c48db7abb8f8a75e8711d6b"
+    },
+    {
+     "path": "packs/state-GA-flora-fauna/chunks.sqlite",
+     "asset": "GA--packs__state-GA-flora-fauna__chunks.sqlite",
+     "bytes": 4763648,
+     "sha256": "e3bc3bf50087b0e51fc73ee084ce3cb6368af856fcdda17187e2db42a69dec91"
+    },
+    {
+     "path": "packs/state-GA-flora-fauna/manifest.json",
+     "asset": "GA--packs__state-GA-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "8349533d444d4900f3160afb5ed454f50b1ad6aee6fe82829993f0e4da348825"
+    },
+    {
+     "path": "packs/state-GA-flora-fauna/vectors.i8",
+     "asset": "GA--packs__state-GA-flora-fauna__vectors.i8",
+     "bytes": 2349312,
+     "sha256": "12afe9a9577eae073822a196ecf54afa87b95693440ec6f9b0e8d362fd18c66d"
+    },
+    {
+     "path": "packs/state-GA-flora-fauna/vectors.scale",
+     "asset": "GA--packs__state-GA-flora-fauna__vectors.scale",
+     "bytes": 12236,
+     "sha256": "2fabea59e19982ff452ae517b1d5c90e27cd24fc8917ffd2e2650b3c6f284d76"
+    }
+   ]
+  },
+  "HI": {
+   "bytes": 21293793,
+   "builtAt": "2026-09-26T15:44:11.512Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-HI-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-HI.pmtiles",
+     "asset": "HI--contours-HI.pmtiles",
+     "bytes": 2626142,
+     "sha256": "6c8e9d0673d91f6fc6645a669e7c95728541a8308effe70a98ba64555e8e5125"
+    },
+    {
+     "path": "coverage-HI-voice.bin",
+     "asset": "HI--coverage-HI-voice.bin",
+     "bytes": 2350,
+     "sha256": "8ea174c87c7658a3796107e0ffd55292f09e74f9f06c873665fad0b8bc4f4be4"
+    },
+    {
+     "path": "map-HI-z14.pmtiles",
+     "asset": "HI--map-HI-z14.pmtiles",
+     "bytes": 14848310,
+     "sha256": "6863a4def569cc9a5d1ba07c9c09a97cc8f03e4b26158b0da97e26789b4242ae"
+    },
+    {
+     "path": "packs/state-HI-flora-fauna/chunks.sqlite",
+     "asset": "HI--packs__state-HI-flora-fauna__chunks.sqlite",
+     "bytes": 2560000,
+     "sha256": "59923694f5d48ed92e7e009af5ece30dcf4e4c287e1252f7cacb32925cac681a"
+    },
+    {
+     "path": "packs/state-HI-flora-fauna/manifest.json",
+     "asset": "HI--packs__state-HI-flora-fauna__manifest.json",
+     "bytes": 24879,
+     "sha256": "d3cbefa5cd0b44360aa999887858be1bfc169a88c057131c2f8ce04433d371c3"
+    },
+    {
+     "path": "packs/state-HI-flora-fauna/vectors.i8",
+     "asset": "HI--packs__state-HI-flora-fauna__vectors.i8",
+     "bytes": 1225728,
+     "sha256": "7fbaac6c4e8b1ea16201ada124a4c0ade9f4019250b8691255c8caa5144adcb6"
+    },
+    {
+     "path": "packs/state-HI-flora-fauna/vectors.scale",
+     "asset": "HI--packs__state-HI-flora-fauna__vectors.scale",
+     "bytes": 6384,
+     "sha256": "00ae491dd86244cf10cab26183b800d1767d55f2fa7c99260b34b301b751bb24"
+    }
+   ]
+  },
+  "IA": {
+   "bytes": 206432158,
+   "builtAt": "2026-09-26T15:44:34.951Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-IA-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-IA.pmtiles",
+     "asset": "IA--contours-IA.pmtiles",
+     "bytes": 14807707,
+     "sha256": "af37c74dc4f6bdc3032c8aa1eee20be77faa2a5857aac5f2845d0e2455c55bb3"
+    },
+    {
+     "path": "coverage-IA-voice.bin",
+     "asset": "IA--coverage-IA-voice.bin",
+     "bytes": 5171,
+     "sha256": "62b3685ca61f09eb19329bec3b91cf979040cff114f61e6b6bc406baa3797887"
+    },
+    {
+     "path": "map-IA-z14.pmtiles",
+     "asset": "IA--map-IA-z14.pmtiles",
+     "bytes": 183798880,
+     "sha256": "e1ac7ec92314a4c1eb1e9ce1c8da10cf65eedc347b5b38bff42cbecfb9f0877c"
+    },
+    {
+     "path": "packs/state-IA-flora-fauna/chunks.sqlite",
+     "asset": "IA--packs__state-IA-flora-fauna__chunks.sqlite",
+     "bytes": 5263360,
+     "sha256": "6209b3b960703fe4e3a520b1ed8f66cace8d06259204fb38d09da53d2a322b67"
+    },
+    {
+     "path": "packs/state-IA-flora-fauna/manifest.json",
+     "asset": "IA--packs__state-IA-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "70edf225a464af9536595901afc65dfc85ee5b03c10f169b6241dc52b6278adb"
+    },
+    {
+     "path": "packs/state-IA-flora-fauna/vectors.i8",
+     "asset": "IA--packs__state-IA-flora-fauna__vectors.i8",
+     "bytes": 2519040,
+     "sha256": "a98c6c56914dbdf4e9639631a12f8af18817ea7f42540af87d7731c2a477d201"
+    },
+    {
+     "path": "packs/state-IA-flora-fauna/vectors.scale",
+     "asset": "IA--packs__state-IA-flora-fauna__vectors.scale",
+     "bytes": 13120,
+     "sha256": "b721676ade91f4d973519bae5f451883bc19a4e4c54a07a4321cd24dcc316ce7"
+    }
+   ]
+  },
+  "ID": {
+   "bytes": 338141222,
+   "builtAt": "2026-09-26T15:44:59.666Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-ID-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-ID.pmtiles",
+     "asset": "ID--contours-ID.pmtiles",
+     "bytes": 93845522,
+     "sha256": "b63db94dba46df3034c94c13da7e585d67728db739647830f3939f5fc220936f"
+    },
+    {
+     "path": "coverage-ID-voice.bin",
+     "asset": "ID--coverage-ID-voice.bin",
+     "bytes": 15303,
+     "sha256": "22942dea26e75723957dd1b3043305c23e561e53220e0ea6eae1feb09334b812"
+    },
+    {
+     "path": "map-ID-z14.pmtiles",
+     "asset": "ID--map-ID-z14.pmtiles",
+     "bytes": 233285925,
+     "sha256": "6d1b24be052de2be3e9f36873c372792951dcb33fa7d9be3ddfdcfab1792170f"
+    },
+    {
+     "path": "packs/state-ID-flora-fauna/chunks.sqlite",
+     "asset": "ID--packs__state-ID-flora-fauna__chunks.sqlite",
+     "bytes": 7413760,
+     "sha256": "30af15ff07b4e9113369ad7aa2d75822a27a774665273897e91c3d2bc82c0188"
+    },
+    {
+     "path": "packs/state-ID-flora-fauna/manifest.json",
+     "asset": "ID--packs__state-ID-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "0daaef9d4248583d0f55e863c89e6123d8ec9e40cb38d06ade3500f54cbf83d5"
+    },
+    {
+     "path": "packs/state-ID-flora-fauna/vectors.i8",
+     "asset": "ID--packs__state-ID-flora-fauna__vectors.i8",
+     "bytes": 3537408,
+     "sha256": "ee5c9ac7dcf054114cb45c19bc26242d5bfac65a72a7be3fe9fd354ea0e694c8"
+    },
+    {
+     "path": "packs/state-ID-flora-fauna/vectors.scale",
+     "asset": "ID--packs__state-ID-flora-fauna__vectors.scale",
+     "bytes": 18424,
+     "sha256": "6111398179257fcfc3e06eab5ca3769d7c72f96ee905200fba1d4bff6b5664d4"
+    }
+   ]
+  },
+  "IL": {
+   "bytes": 339974373,
+   "builtAt": "2026-09-26T15:45:26.035Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-IL-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-IL.pmtiles",
+     "asset": "IL--contours-IL.pmtiles",
+     "bytes": 14705804,
+     "sha256": "4c7d50e9a504c571445cd53fff703a1a93d7d0bcba400fc67dd54af47ef8f99d"
+    },
+    {
+     "path": "coverage-IL-voice.bin",
+     "asset": "IL--coverage-IL-voice.bin",
+     "bytes": 5439,
+     "sha256": "2058c4db57a23b639d41f44859e01ff64c882340dc6c7f69eaab69f38fec1d1a"
+    },
+    {
+     "path": "map-IL-z14.pmtiles",
+     "asset": "IL--map-IL-z14.pmtiles",
+     "bytes": 316673354,
+     "sha256": "b89609d93bfabdaf56220bf5d97c6ab64a8fa6cfc6cf437fe03884cf917055b6"
+    },
+    {
+     "path": "packs/state-IL-flora-fauna/chunks.sqlite",
+     "asset": "IL--packs__state-IL-flora-fauna__chunks.sqlite",
+     "bytes": 5767168,
+     "sha256": "9a33cc4c22fb50bb881a6f8fdf40d513854a1a8eb1ec618879852f07b88244e2"
+    },
+    {
+     "path": "packs/state-IL-flora-fauna/manifest.json",
+     "asset": "IL--packs__state-IL-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "ed5c757751e4c5724cad5d870db53280c2fd2dabab489395916da63f8a95d480"
+    },
+    {
+     "path": "packs/state-IL-flora-fauna/vectors.i8",
+     "asset": "IL--packs__state-IL-flora-fauna__vectors.i8",
+     "bytes": 2783232,
+     "sha256": "7fefb4a1c93bda2173768d6b1143c1c43b7c69b0909ef5d65c72578e16dbbe2f"
+    },
+    {
+     "path": "packs/state-IL-flora-fauna/vectors.scale",
+     "asset": "IL--packs__state-IL-flora-fauna__vectors.scale",
+     "bytes": 14496,
+     "sha256": "5637d4e397c65dd7dd9d05f09b75479a5d61465240b442064762b21098d39693"
+    }
+   ]
+  },
+  "IN": {
+   "bytes": 242561254,
+   "builtAt": "2026-09-26T15:45:42.380Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-IN-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-IN.pmtiles",
+     "asset": "IN--contours-IN.pmtiles",
+     "bytes": 8778898,
+     "sha256": "eeba93235daae6b02a778eb29c8b63a5836e2e78b31d1fbdf2343127a5f72a24"
+    },
+    {
+     "path": "coverage-IN-voice.bin",
+     "asset": "IN--coverage-IN-voice.bin",
+     "bytes": 4055,
+     "sha256": "0d8a86e4592f51cd64f2aeb0424fd17c8045f5c64749b9f88ceb711df74b0ba0"
+    },
+    {
+     "path": "map-IN-z14.pmtiles",
+     "asset": "IN--map-IN-z14.pmtiles",
+     "bytes": 226107029,
+     "sha256": "5995cd538001a6ff995cddfda0c72fa38195625247f84dac619baa27aa60f2b0"
+    },
+    {
+     "path": "packs/state-IN-flora-fauna/chunks.sqlite",
+     "asset": "IN--packs__state-IN-flora-fauna__chunks.sqlite",
+     "bytes": 5140480,
+     "sha256": "58878e4b26c76984205947f877235d9212d9347e163f29f9bda36887c68d4f0a"
+    },
+    {
+     "path": "packs/state-IN-flora-fauna/manifest.json",
+     "asset": "IN--packs__state-IN-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "5078b00cea892a6ceaf2eea737469c0b059debf830625039df445e50ccc87fa2"
+    },
+    {
+     "path": "packs/state-IN-flora-fauna/vectors.i8",
+     "asset": "IN--packs__state-IN-flora-fauna__vectors.i8",
+     "bytes": 2492928,
+     "sha256": "8b4a5f2ec6e4831c8d5aebe5b7d01993d85066b7d46f0b509dfbebab43b7aff5"
+    },
+    {
+     "path": "packs/state-IN-flora-fauna/vectors.scale",
+     "asset": "IN--packs__state-IN-flora-fauna__vectors.scale",
+     "bytes": 12984,
+     "sha256": "e8efc3c1424e0466a6d29e4d5a5dff6ac5a14b34297b132a84b2fe2728fc94fa"
+    }
+   ]
+  },
+  "KS": {
+   "bytes": 160139318,
+   "builtAt": "2026-09-26T15:46:21.699Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-KS-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-KS.pmtiles",
+     "asset": "KS--contours-KS.pmtiles",
+     "bytes": 10502679,
+     "sha256": "bb51ea9f6dfb6af796cf9cf32eab061cd00edf918914d653612b3fe73107304d"
+    },
+    {
+     "path": "coverage-KS-voice.bin",
+     "asset": "KS--coverage-KS-voice.bin",
+     "bytes": 9314,
+     "sha256": "db27c85593e55dc49b3defaa1b4740debfa1b52fcb9a9db2acae59accedf1702"
+    },
+    {
+     "path": "map-KS-z14.pmtiles",
+     "asset": "KS--map-KS-z14.pmtiles",
+     "bytes": 141920497,
+     "sha256": "811927e8aa2d283d1d537b618cae9b7f2aca6575d5c6db8ba59c3d6c9943b99a"
+    },
+    {
+     "path": "packs/state-KS-flora-fauna/chunks.sqlite",
+     "asset": "KS--packs__state-KS-flora-fauna__chunks.sqlite",
+     "bytes": 5181440,
+     "sha256": "e6f385054eeeff68878d4f104188072198d1caa19c03bdda389a71ef9621d1af"
+    },
+    {
+     "path": "packs/state-KS-flora-fauna/manifest.json",
+     "asset": "KS--packs__state-KS-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "c0f4ea5a057585f976cd66527496322af3744155bf2ea43bb720970ead80c0f3"
+    },
+    {
+     "path": "packs/state-KS-flora-fauna/vectors.i8",
+     "asset": "KS--packs__state-KS-flora-fauna__vectors.i8",
+     "bytes": 2487552,
+     "sha256": "9354f49768e176f505a8776ac816ab1d4c7b70b2c74abf7110dc94b4fb398b7f"
+    },
+    {
+     "path": "packs/state-KS-flora-fauna/vectors.scale",
+     "asset": "KS--packs__state-KS-flora-fauna__vectors.scale",
+     "bytes": 12956,
+     "sha256": "38c1ff2ceb5d5d4678cb7dc3abe3f45c9126119c25cb1b93b0dc070690185b5e"
+    }
+   ]
+  },
+  "KY": {
+   "bytes": 279193349,
+   "builtAt": "2026-09-26T15:46:39.839Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-KY-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-KY.pmtiles",
+     "asset": "KY--contours-KY.pmtiles",
+     "bytes": 35142089,
+     "sha256": "88668aa0888e33825c35f136bac2e019a656452ad59a518dc00c1502341aad02"
+    },
+    {
+     "path": "coverage-KY-voice.bin",
+     "asset": "KY--coverage-KY-voice.bin",
+     "bytes": 6318,
+     "sha256": "0326d2ed3838c3e4d5fc30faf9ef94639c4616e69c145f372c7f7b532e9c3e38"
+    },
+    {
+     "path": "map-KY-z14.pmtiles",
+     "asset": "KY--map-KY-z14.pmtiles",
+     "bytes": 237017594,
+     "sha256": "61ca52a29d2d20e994fad9ffab75b0bb736d182bf0cb2b41fd434957e87f4a29"
+    },
+    {
+     "path": "packs/state-KY-flora-fauna/chunks.sqlite",
+     "asset": "KY--packs__state-KY-flora-fauna__chunks.sqlite",
+     "bytes": 4710400,
+     "sha256": "3d8081e743e5de93a1c013b55d9ae486acc0a477733336b523fd97893f61cfc9"
+    },
+    {
+     "path": "packs/state-KY-flora-fauna/manifest.json",
+     "asset": "KY--packs__state-KY-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "f687c27d431e20368c986862d39989131e2008fb793788f2c9d77a7ea367de0d"
+    },
+    {
+     "path": "packs/state-KY-flora-fauna/vectors.i8",
+     "asset": "KY--packs__state-KY-flora-fauna__vectors.i8",
+     "bytes": 2280192,
+     "sha256": "dd5fcff114fa206bedc4fe2f9933ba71dcd7facdfdbfb45ac4063d89fbdf0404"
+    },
+    {
+     "path": "packs/state-KY-flora-fauna/vectors.scale",
+     "asset": "KY--packs__state-KY-flora-fauna__vectors.scale",
+     "bytes": 11876,
+     "sha256": "e7c97a21bce31b6fb9a2a67615fe66a6de94c5acf67ede7ba8624e50861b4caa"
+    }
+   ]
+  },
+  "LA": {
+   "bytes": 163012186,
+   "builtAt": "2026-09-26T15:47:01.099Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-LA-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-LA.pmtiles",
+     "asset": "LA--contours-LA.pmtiles",
+     "bytes": 6480734,
+     "sha256": "a701c205a5deda1fa417575e3db742f746fffda948a1ae6fab8f20254423e444"
+    },
+    {
+     "path": "coverage-LA-voice.bin",
+     "asset": "LA--coverage-LA-voice.bin",
+     "bytes": 7008,
+     "sha256": "171fb8cf4f4db9ecd5f8818ffd40b370a99d808f4c82afdfa4346ca2a3241b9c"
+    },
+    {
+     "path": "map-LA-z14.pmtiles",
+     "asset": "LA--map-LA-z14.pmtiles",
+     "bytes": 150840681,
+     "sha256": "9f97533e7904902d81b7d750d8107bf96fe2ca72e4f1e9b538c515015b9d679d"
+    },
+    {
+     "path": "packs/state-LA-flora-fauna/chunks.sqlite",
+     "asset": "LA--packs__state-LA-flora-fauna__chunks.sqlite",
+     "bytes": 3780608,
+     "sha256": "da7064f2a12b3e3418dc0e0396d985f70e4a88f7f555804ecb0127513178d88d"
+    },
+    {
+     "path": "packs/state-LA-flora-fauna/manifest.json",
+     "asset": "LA--packs__state-LA-flora-fauna__manifest.json",
+     "bytes": 24879,
+     "sha256": "a94958e007fdd806ad8a497370345bfd48b3117230bc4267b758831dfb8d0bad"
+    },
+    {
+     "path": "packs/state-LA-flora-fauna/vectors.i8",
+     "asset": "LA--packs__state-LA-flora-fauna__vectors.i8",
+     "bytes": 1868544,
+     "sha256": "a181b6aae02da1dc95c886334f633551b60aeb490c1e461d98b2c7a455d0a157"
+    },
+    {
+     "path": "packs/state-LA-flora-fauna/vectors.scale",
+     "asset": "LA--packs__state-LA-flora-fauna__vectors.scale",
+     "bytes": 9732,
+     "sha256": "3199fc9506b93f5b08510920e805ee3d0e0744cd306fee3989ca466021d7ecb0"
+    }
+   ]
+  },
+  "MA": {
+   "bytes": 230396223,
+   "builtAt": "2026-09-26T15:47:07.009Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-MA-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-MA.pmtiles",
+     "asset": "MA--contours-MA.pmtiles",
+     "bytes": 4829533,
+     "sha256": "c837b9593db81ed9d4e55c4f5ceadeb796a01c743f2538bee98647cc88405c7e"
+    },
+    {
+     "path": "coverage-MA-voice.bin",
+     "asset": "MA--coverage-MA-voice.bin",
+     "bytes": 1890,
+     "sha256": "4245c7aeb28ba8fdd6a24a1029a77f122635c03bd74c2d104528fc00f4ee2275"
+    },
+    {
+     "path": "map-MA-z14.pmtiles",
+     "asset": "MA--map-MA-z14.pmtiles",
+     "bytes": 216869344,
+     "sha256": "6604f1fa28d0a61c3cc48e1893aa28fbc4db93c94a2e4275f218c25b9dff7017"
+    },
+    {
+     "path": "packs/state-MA-flora-fauna/chunks.sqlite",
+     "asset": "MA--packs__state-MA-flora-fauna__chunks.sqlite",
+     "bytes": 5832704,
+     "sha256": "bc7006c12ff9371c3d4c6d1d482c30d164d8284f524db5191b1287a0dde187ae"
+    },
+    {
+     "path": "packs/state-MA-flora-fauna/manifest.json",
+     "asset": "MA--packs__state-MA-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "e5184583ba8c3d8453db943bcc024dff5eddcb1f19e12e5a8fe67327f3658a6c"
+    },
+    {
+     "path": "packs/state-MA-flora-fauna/vectors.i8",
+     "asset": "MA--packs__state-MA-flora-fauna__vectors.i8",
+     "bytes": 2823168,
+     "sha256": "bbb54cbc1633f86c6f1c15477e4fd57918d826125b17de6ab5cce160c2a4d470"
+    },
+    {
+     "path": "packs/state-MA-flora-fauna/vectors.scale",
+     "asset": "MA--packs__state-MA-flora-fauna__vectors.scale",
+     "bytes": 14704,
+     "sha256": "a8127669ebdcab988b8f12fba49f74724300fec0f9f4eff270e0d8982bc39f7d"
+    }
+   ]
+  },
+  "MD": {
+   "bytes": 256306539,
+   "builtAt": "2026-09-26T15:47:12.526Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-MD-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-MD.pmtiles",
+     "asset": "MD--contours-MD.pmtiles",
+     "bytes": 9607524,
+     "sha256": "b604ef4cc08688b583d1eb3e4acf69b04d9383876c7d1d60ecff6da40d2e8df0"
+    },
+    {
+     "path": "coverage-MD-voice.bin",
+     "asset": "MD--coverage-MD-voice.bin",
+     "bytes": 2042,
+     "sha256": "c64eaa5842d9ec1f79ef3f0fd29139c1c1c3339857487a95f864656abd26ccd2"
+    },
+    {
+     "path": "map-MD-z14.pmtiles",
+     "asset": "MD--map-MD-z14.pmtiles",
+     "bytes": 238715137,
+     "sha256": "74cf43f43b0ec7a4709e41afa5f5154bb9ca82cfd4ff70032661884f6816c004"
+    },
+    {
+     "path": "packs/state-MD-flora-fauna/chunks.sqlite",
+     "asset": "MD--packs__state-MD-flora-fauna__chunks.sqlite",
+     "bytes": 5345280,
+     "sha256": "0ebf1845d17d3a4485ff53c3c49e57896e951332929551383175c7abcbfed39c"
+    },
+    {
+     "path": "packs/state-MD-flora-fauna/manifest.json",
+     "asset": "MD--packs__state-MD-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "1e753f88ea974078701f531ceaaa6c14d02d081011643fde3deef7a0882f66c6"
+    },
+    {
+     "path": "packs/state-MD-flora-fauna/vectors.i8",
+     "asset": "MD--packs__state-MD-flora-fauna__vectors.i8",
+     "bytes": 2598144,
+     "sha256": "55b007443719ab11d7cfd2d03dc433c3758210136e4abcac29c26276af76676c"
+    },
+    {
+     "path": "packs/state-MD-flora-fauna/vectors.scale",
+     "asset": "MD--packs__state-MD-flora-fauna__vectors.scale",
+     "bytes": 13532,
+     "sha256": "6170ac2322633c81f3e5709b5f885b28530ae5894a5a729c64d412ec40eeaa97"
+    }
+   ]
+  },
+  "ME": {
+   "bytes": 173061861,
+   "builtAt": "2026-09-26T15:47:22.973Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-ME-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-ME.pmtiles",
+     "asset": "ME--contours-ME.pmtiles",
+     "bytes": 12188206,
+     "sha256": "24ea92c4d07220d725ed71ca3c65415bb592e20f599b63c24377872b82d88ae0"
+    },
+    {
+     "path": "coverage-ME-voice.bin",
+     "asset": "ME--coverage-ME-voice.bin",
+     "bytes": 5529,
+     "sha256": "92be74dff46238870862d44318eee90005c3517edf4e267d8e6d723013881bf8"
+    },
+    {
+     "path": "map-ME-z14.pmtiles",
+     "asset": "ME--map-ME-z14.pmtiles",
+     "bytes": 152767142,
+     "sha256": "b5c8149be3e38228c6b7f4be950972b2e86b8cd2afececf99329a4ba1e21d96f"
+    },
+    {
+     "path": "packs/state-ME-flora-fauna/chunks.sqlite",
+     "asset": "ME--packs__state-ME-flora-fauna__chunks.sqlite",
+     "bytes": 5443584,
+     "sha256": "e9f060cfac301cb3ef23fe346c60476a55a3ab96771d700df053bbc973506d58"
+    },
+    {
+     "path": "packs/state-ME-flora-fauna/manifest.json",
+     "asset": "ME--packs__state-ME-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "d519d2e085d467c44a3c2c91d9e72f9b4b0990a31a11e5ba8d06f5ad9d98cfcc"
+    },
+    {
+     "path": "packs/state-ME-flora-fauna/vectors.i8",
+     "asset": "ME--packs__state-ME-flora-fauna__vectors.i8",
+     "bytes": 2618880,
+     "sha256": "bbc1d80c32b49c007ab91dcdd84db753fbfa9c5583d96ed27254ad0ed7b56eb4"
+    },
+    {
+     "path": "packs/state-ME-flora-fauna/vectors.scale",
+     "asset": "ME--packs__state-ME-flora-fauna__vectors.scale",
+     "bytes": 13640,
+     "sha256": "70efddc55b238ab993dc4aff163cf13ae2bd6041a5201d2bba6e17c6fc95ed29"
+    }
+   ]
+  },
+  "MI": {
+   "bytes": 598175253,
+   "builtAt": "2026-09-26T15:47:51.495Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-MI-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-MI.pmtiles",
+     "asset": "MI--contours-MI.pmtiles",
+     "bytes": 24546075,
+     "sha256": "97becb7279ba5c9244e17199069cda1c3e183a6ca57f70b7d59088bc38d4c49a"
+    },
+    {
+     "path": "coverage-MI-voice.bin",
+     "asset": "MI--coverage-MI-voice.bin",
+     "bytes": 9573,
+     "sha256": "f19e9321612961dcd0f6bf1e69748a5430d99bfc02f355653412f87c9183f562"
+    },
+    {
+     "path": "map-MI-z14.pmtiles",
+     "asset": "MI--map-MI-z14.pmtiles",
+     "bytes": 564224661,
+     "sha256": "1de1c2b1ac2afbc5d542ea1f2e58d2510ed20d8a0814bddb9add49ae223e057b"
+    },
+    {
+     "path": "packs/state-MI-flora-fauna/chunks.sqlite",
+     "asset": "MI--packs__state-MI-flora-fauna__chunks.sqlite",
+     "bytes": 6316032,
+     "sha256": "dd63f4d92667ae33f9f28b57365ac45ef695f46449ad503f988e1d6c4f6bb475"
+    },
+    {
+     "path": "packs/state-MI-flora-fauna/manifest.json",
+     "asset": "MI--packs__state-MI-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "9a072ed4295f3ceaca319a4e542e492f556509b3548c4750813d6e9d23cb83a7"
+    },
+    {
+     "path": "packs/state-MI-flora-fauna/vectors.i8",
+     "asset": "MI--packs__state-MI-flora-fauna__vectors.i8",
+     "bytes": 3038208,
+     "sha256": "ea84096133eda4eb94d64744435d3c295b7c759c1878f35b13daf2f43b701c37"
+    },
+    {
+     "path": "packs/state-MI-flora-fauna/vectors.scale",
+     "asset": "MI--packs__state-MI-flora-fauna__vectors.scale",
+     "bytes": 15824,
+     "sha256": "d23bb39e0789999438abfb9c298a8d3a5f669458b23a1bb368e0853675de4526"
+    }
+   ]
+  },
+  "MN": {
+   "bytes": 434128701,
+   "builtAt": "2026-09-26T15:48:25.554Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-MN-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-MN.pmtiles",
+     "asset": "MN--contours-MN.pmtiles",
+     "bytes": 23888081,
+     "sha256": "98e6c6ccf00f9107919a5c637ffd7ff96b994e0db9e6fcffb889d76dc72f96ed"
+    },
+    {
+     "path": "coverage-MN-voice.bin",
+     "asset": "MN--coverage-MN-voice.bin",
+     "bytes": 7878,
+     "sha256": "92f690fe660fa761ac5fe4ee258310655fea1fad77c339a3bce0789cc7b7ad1b"
+    },
+    {
+     "path": "map-MN-z14.pmtiles",
+     "asset": "MN--map-MN-z14.pmtiles",
+     "bytes": 401377050,
+     "sha256": "26d017e0f2680a485932d992488c48f68ea35853ad762c657b802136487e815b"
+    },
+    {
+     "path": "packs/state-MN-flora-fauna/chunks.sqlite",
+     "asset": "MN--packs__state-MN-flora-fauna__chunks.sqlite",
+     "bytes": 5947392,
+     "sha256": "979cb20b4a8c134aa910d986e22f7c8c56fb55727be158e1d9c465bbfdc6ca97"
+    },
+    {
+     "path": "packs/state-MN-flora-fauna/manifest.json",
+     "asset": "MN--packs__state-MN-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "e31ef97bd2c745a40cd828d7fd766b666e0d03cb4b819153033803b54410cc5f"
+    },
+    {
+     "path": "packs/state-MN-flora-fauna/vectors.i8",
+     "asset": "MN--packs__state-MN-flora-fauna__vectors.i8",
+     "bytes": 2868480,
+     "sha256": "44d100fa635d4fcd644eb56b2c2a9a89877f951a4a54da32a53ce349ffc1bf45"
+    },
+    {
+     "path": "packs/state-MN-flora-fauna/vectors.scale",
+     "asset": "MN--packs__state-MN-flora-fauna__vectors.scale",
+     "bytes": 14940,
+     "sha256": "64a4780da270d95784716c11f1d1a1a8e89f19a2fb95ec87fb617bc8d198c819"
+    }
+   ]
+  },
+  "MO": {
+   "bytes": 327268397,
+   "builtAt": "2026-09-26T15:48:54.852Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-MO-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-MO.pmtiles",
+     "asset": "MO--contours-MO.pmtiles",
+     "bytes": 25373124,
+     "sha256": "11f85d9f555da7ad4765353504ef7cbe4fd15a07e4d6852f00a161f3a7023c88"
+    },
+    {
+     "path": "coverage-MO-voice.bin",
+     "asset": "MO--coverage-MO-voice.bin",
+     "bytes": 6377,
+     "sha256": "05f979d1b15bc4788645980520d09f5824539b9c82b339ceef4774faecf7b99d"
+    },
+    {
+     "path": "map-MO-z14.pmtiles",
+     "asset": "MO--map-MO-z14.pmtiles",
+     "bytes": 294749048,
+     "sha256": "729ea1b2d97ab13e98b83e66f976a8a90cabdd2189a2ccda505b0afddd680b76"
+    },
+    {
+     "path": "packs/state-MO-flora-fauna/chunks.sqlite",
+     "asset": "MO--packs__state-MO-flora-fauna__chunks.sqlite",
+     "bytes": 4800512,
+     "sha256": "9c593ac7275bc49675123bd03870b5b29108d65381c8e48c2184902b4ad29bc1"
+    },
+    {
+     "path": "packs/state-MO-flora-fauna/manifest.json",
+     "asset": "MO--packs__state-MO-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "1be0b0f5e29e5050e6ac4723ad80d58cae367f06db7ce569ac3b244f34477001"
+    },
+    {
+     "path": "packs/state-MO-flora-fauna/vectors.i8",
+     "asset": "MO--packs__state-MO-flora-fauna__vectors.i8",
+     "bytes": 2302464,
+     "sha256": "4a6e3a43db2e0810afdd5bb2138cbe594c983b257bdccd1ed0657ac1c071ca86"
+    },
+    {
+     "path": "packs/state-MO-flora-fauna/vectors.scale",
+     "asset": "MO--packs__state-MO-flora-fauna__vectors.scale",
+     "bytes": 11992,
+     "sha256": "19e1ce167675e5f5793305c9b45cf8c056936b8f868ef07214b0047704354469"
+    }
+   ]
+  },
+  "MS": {
+   "bytes": 143628708,
+   "builtAt": "2026-09-26T15:49:22.959Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-MS-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-MS.pmtiles",
+     "asset": "MS--contours-MS.pmtiles",
+     "bytes": 9766188,
+     "sha256": "1a2b3e721755947e4ac8f6a39c308e41fc7fd9411c36070ed980c8af7458e517"
+    },
+    {
+     "path": "coverage-MS-voice.bin",
+     "asset": "MS--coverage-MS-voice.bin",
+     "bytes": 8098,
+     "sha256": "015c779573c5b6b77d566ca045791aaf08f608fbd758228b202cc437c0b2dbb2"
+    },
+    {
+     "path": "map-MS-z14.pmtiles",
+     "asset": "MS--map-MS-z14.pmtiles",
+     "bytes": 127945766,
+     "sha256": "0b3f6c58d69d081202443bd28fb3f4d4d60e877a45c1a17bab7feb5040ba3c91"
+    },
+    {
+     "path": "packs/state-MS-flora-fauna/chunks.sqlite",
+     "asset": "MS--packs__state-MS-flora-fauna__chunks.sqlite",
+     "bytes": 3932160,
+     "sha256": "d2bf650f07434bdbabcc1784271e6b480c01d14274b47d78c0c23381095d48e5"
+    },
+    {
+     "path": "packs/state-MS-flora-fauna/manifest.json",
+     "asset": "MS--packs__state-MS-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "530d3370223840609033ab39c062cb8b653be5c72a7a38a5bc47cbf89f61ef5a"
+    },
+    {
+     "path": "packs/state-MS-flora-fauna/vectors.i8",
+     "asset": "MS--packs__state-MS-flora-fauna__vectors.i8",
+     "bytes": 1941504,
+     "sha256": "e934e3af64a1cdf6fad58a1f78d3f06f9ba4641b891591d0caab07b54b2f9c9f"
+    },
+    {
+     "path": "packs/state-MS-flora-fauna/vectors.scale",
+     "asset": "MS--packs__state-MS-flora-fauna__vectors.scale",
+     "bytes": 10112,
+     "sha256": "976f012c62a01b21b57c2c945b9ec9307015620ad56fa835f9c7044c139dd5c9"
+    }
+   ]
+  },
+  "MT": {
+   "bytes": 316877268,
+   "builtAt": "2026-09-26T15:50:11.099Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-MT-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-MT.pmtiles",
+     "asset": "MT--contours-MT.pmtiles",
+     "bytes": 97226938,
+     "sha256": "5ab49719429cbbbb9921febcc3b2c81705256eefbd1766e51ffecf622eb65c03"
+    },
+    {
+     "path": "coverage-MT-voice.bin",
+     "asset": "MT--coverage-MT-voice.bin",
+     "bytes": 23976,
+     "sha256": "fc5cbebf2d451158d296c2670cc7ddad81f96daaf08b097f481dbf2f7474f9f0"
+    },
+    {
+     "path": "map-MT-z14.pmtiles",
+     "asset": "MT--map-MT-z14.pmtiles",
+     "bytes": 208307722,
+     "sha256": "cf1eeb4276755d982d04a7eb6a68463997248a6847df148b782824ea229c1337"
+    },
+    {
+     "path": "packs/state-MT-flora-fauna/chunks.sqlite",
+     "asset": "MT--packs__state-MT-flora-fauna__chunks.sqlite",
+     "bytes": 7626752,
+     "sha256": "745520530e0d258afd3e4f67b19e8d33ad2f8fc069823c4efc71bdedbaa892e2"
+    },
+    {
+     "path": "packs/state-MT-flora-fauna/manifest.json",
+     "asset": "MT--packs__state-MT-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "a05649fba294801f0a0c5b7c39a1d02a4ca31da1cf9141a83296009cf5fbaefd"
+    },
+    {
+     "path": "packs/state-MT-flora-fauna/vectors.i8",
+     "asset": "MT--packs__state-MT-flora-fauna__vectors.i8",
+     "bytes": 3648000,
+     "sha256": "b1f711f8d22139e8267c936f8c6b0d6f064670afffb6ba8ac325b0435701e063"
+    },
+    {
+     "path": "packs/state-MT-flora-fauna/vectors.scale",
+     "asset": "MT--packs__state-MT-flora-fauna__vectors.scale",
+     "bytes": 19000,
+     "sha256": "51ee305be96c7e412165616d9cff2ba6d9e2486e018a82ae0eae3f4ce918acec"
+    }
+   ]
+  },
+  "NC": {
+   "bytes": 454351072,
+   "builtAt": "2026-09-26T15:50:39.226Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-NC-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-NC.pmtiles",
+     "asset": "NC--contours-NC.pmtiles",
+     "bytes": 28809042,
+     "sha256": "363e5b032b23491adf69871a94a489e89bf4b1cf2e0102667a2fffe463dbc55b"
+    },
+    {
+     "path": "coverage-NC-voice.bin",
+     "asset": "NC--coverage-NC-voice.bin",
+     "bytes": 7257,
+     "sha256": "168f3e9e64f18882bb8df8ce6f17f92a9dd0e6b59d57f88501351f5c63b33f2f"
+    },
+    {
+     "path": "map-NC-z14.pmtiles",
+     "asset": "NC--map-NC-z14.pmtiles",
+     "bytes": 417444877,
+     "sha256": "c01641fdaf964e5fa1ab2c820f8c23b6952bb2e2b3115c6240cd4d17fcc56295"
+    },
+    {
+     "path": "packs/state-NC-flora-fauna/chunks.sqlite",
+     "asset": "NC--packs__state-NC-flora-fauna__chunks.sqlite",
+     "bytes": 5398528,
+     "sha256": "20019108c42521ad619e0bc145b0b9dd4e1fedf023413218c6768367a4539fd3"
+    },
+    {
+     "path": "packs/state-NC-flora-fauna/manifest.json",
+     "asset": "NC--packs__state-NC-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "0eb9b38dcacd43d34c5d05b945d3348a84402ac6c3236a3a6b6162a29781c833"
+    },
+    {
+     "path": "packs/state-NC-flora-fauna/vectors.i8",
+     "asset": "NC--packs__state-NC-flora-fauna__vectors.i8",
+     "bytes": 2652672,
+     "sha256": "d10c25b52dc4ca33dec7b1e1f92e67aa129c093b5ea68c957187c6f860206a0b"
+    },
+    {
+     "path": "packs/state-NC-flora-fauna/vectors.scale",
+     "asset": "NC--packs__state-NC-flora-fauna__vectors.scale",
+     "bytes": 13816,
+     "sha256": "2e11e8b9263587e3f4240e74c7e11c52e63372974eb4f4a9e77cf251b2646eb3"
+    }
+   ]
+  },
+  "ND": {
+   "bytes": 131709136,
+   "builtAt": "2026-09-26T15:51:09.463Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-ND-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-ND.pmtiles",
+     "asset": "ND--contours-ND.pmtiles",
+     "bytes": 12170082,
+     "sha256": "823b36eb22d18c31db556374802d76c0e939948426e787cb2c48713725713f81"
+    },
+    {
+     "path": "coverage-ND-voice.bin",
+     "asset": "ND--coverage-ND-voice.bin",
+     "bytes": 5890,
+     "sha256": "cf4bb66b14aaa308dfd4ce5190805ed98eeef379963e614c5419cef6045b0840"
+    },
+    {
+     "path": "map-ND-z14.pmtiles",
+     "asset": "ND--map-ND-z14.pmtiles",
+     "bytes": 111607040,
+     "sha256": "d301d9c712195a87c6a72c787b1d36ad58f79f14ffbb520288dd2305f05b709e"
+    },
+    {
+     "path": "packs/state-ND-flora-fauna/chunks.sqlite",
+     "asset": "ND--packs__state-ND-flora-fauna__chunks.sqlite",
+     "bytes": 5369856,
+     "sha256": "6521bfb3c86ac8eba82fbd1315bec5cdde2c82af3649ed856c7cdb24c9cd3c04"
+    },
+    {
+     "path": "packs/state-ND-flora-fauna/manifest.json",
+     "asset": "ND--packs__state-ND-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "90a7eae37053252688b26d8b39c13f73488c6b64032c1ac84a112d1074fcc88f"
+    },
+    {
+     "path": "packs/state-ND-flora-fauna/vectors.i8",
+     "asset": "ND--packs__state-ND-flora-fauna__vectors.i8",
+     "bytes": 2518272,
+     "sha256": "9978478b239e954bb8acea9adf44e9bd65cfbb50203c4adc415b906b0db9d0f0"
+    },
+    {
+     "path": "packs/state-ND-flora-fauna/vectors.scale",
+     "asset": "ND--packs__state-ND-flora-fauna__vectors.scale",
+     "bytes": 13116,
+     "sha256": "acb8ee675787b1604d6f12e77764315d39bcdb73de87c7175ca0717d4ba2d3cc"
+    }
+   ]
+  },
+  "NE": {
+   "bytes": 156427381,
+   "builtAt": "2026-09-26T15:51:45.360Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-NE-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-NE.pmtiles",
+     "asset": "NE--contours-NE.pmtiles",
+     "bytes": 21052608,
+     "sha256": "b9179a7a8273c61fba67fb22672f0c76ecf0b625b539b23805fed10c8656f3dc"
+    },
+    {
+     "path": "coverage-NE-voice.bin",
+     "asset": "NE--coverage-NE-voice.bin",
+     "bytes": 10971,
+     "sha256": "8b4cac12b84a42413046d12e736c99dd26d4cc1b02e69de814d6a37d593e0f6d"
+    },
+    {
+     "path": "map-NE-z14.pmtiles",
+     "asset": "NE--map-NE-z14.pmtiles",
+     "bytes": 127284026,
+     "sha256": "c8a3119fabaf3ac2061a1025fb9d8cada143e4409cdec45d8558931857c075f0"
+    },
+    {
+     "path": "packs/state-NE-flora-fauna/chunks.sqlite",
+     "asset": "NE--packs__state-NE-flora-fauna__chunks.sqlite",
+     "bytes": 5464064,
+     "sha256": "9a96ecc9ba6323a96c81c244d127f5decf2ba1b80a6429f181a960bdd034456f"
+    },
+    {
+     "path": "packs/state-NE-flora-fauna/manifest.json",
+     "asset": "NE--packs__state-NE-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "85f40399f088a61d30e523b5cb3e885a3a5210bde00aa34194132b3c595d505c"
+    },
+    {
+     "path": "packs/state-NE-flora-fauna/vectors.i8",
+     "asset": "NE--packs__state-NE-flora-fauna__vectors.i8",
+     "bytes": 2577408,
+     "sha256": "c664ed9c84ee59357f36243576e55d276862e513638e501b058b303e859614cf"
+    },
+    {
+     "path": "packs/state-NE-flora-fauna/vectors.scale",
+     "asset": "NE--packs__state-NE-flora-fauna__vectors.scale",
+     "bytes": 13424,
+     "sha256": "21ad845ac05d2f3febc28bd1169c08ec8414aa10757bfec967ea865f64991874"
+    }
+   ]
+  },
+  "NH": {
+   "bytes": 132371686,
+   "builtAt": "2026-09-26T15:51:50.663Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-NH-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-NH.pmtiles",
+     "asset": "NH--contours-NH.pmtiles",
+     "bytes": 8103120,
+     "sha256": "12671d330fb4474f4cee495149827da3517b03fe3bd2f7a3313b753d99cc72e8"
+    },
+    {
+     "path": "coverage-NH-voice.bin",
+     "asset": "NH--coverage-NH-voice.bin",
+     "bytes": 1691,
+     "sha256": "672736e51931d92ec09564d7afbe7b5f1c7624e0adba71ff3437a6ba6de3d861"
+    },
+    {
+     "path": "map-NH-z14.pmtiles",
+     "asset": "NH--map-NH-z14.pmtiles",
+     "bytes": 116267475,
+     "sha256": "48867828b905b9c562d0358ec66cf4b64f871d4a9477760382976abbbac1bb20"
+    },
+    {
+     "path": "packs/state-NH-flora-fauna/chunks.sqlite",
+     "asset": "NH--packs__state-NH-flora-fauna__chunks.sqlite",
+     "bytes": 5382144,
+     "sha256": "097e18715eff9d20704e0a7383ab3d28da463e26deded90d67790c899138938c"
+    },
+    {
+     "path": "packs/state-NH-flora-fauna/manifest.json",
+     "asset": "NH--packs__state-NH-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "79ee505be102198e7f6baebd242edc834f667d6fb779e67be435fb80da8257a8"
+    },
+    {
+     "path": "packs/state-NH-flora-fauna/vectors.i8",
+     "asset": "NH--packs__state-NH-flora-fauna__vectors.i8",
+     "bytes": 2578944,
+     "sha256": "90ddf402ba0df1a8cf0bea07e02f0ebba4bc573b6cf4590820f8f090cfc4ae43"
+    },
+    {
+     "path": "packs/state-NH-flora-fauna/vectors.scale",
+     "asset": "NH--packs__state-NH-flora-fauna__vectors.scale",
+     "bytes": 13432,
+     "sha256": "65a98717e977ee44e191d581130fb9a79ac451f74c4eab3970858c144680a597"
+    }
+   ]
+  },
+  "NJ": {
+   "bytes": 192577509,
+   "builtAt": "2026-09-26T15:51:57.083Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-NJ-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-NJ.pmtiles",
+     "asset": "NJ--contours-NJ.pmtiles",
+     "bytes": 2497234,
+     "sha256": "371d6c4647039945f7c935dca2dcef55a215283abf263e799225aecec7d64ef1"
+    },
+    {
+     "path": "coverage-NJ-voice.bin",
+     "asset": "NJ--coverage-NJ-voice.bin",
+     "bytes": 1475,
+     "sha256": "a87c1bc930a0a87f6be879d6b581a03e8cb744fcda97b6f08fb8151c33e94866"
+    },
+    {
+     "path": "map-NJ-z14.pmtiles",
+     "asset": "NJ--map-NJ-z14.pmtiles",
+     "bytes": 181844408,
+     "sha256": "13fa382958b8274c5268fb3b420a3abf8eb815f25415734b8325f6f19b488ae3"
+    },
+    {
+     "path": "packs/state-NJ-flora-fauna/chunks.sqlite",
+     "asset": "NJ--packs__state-NJ-flora-fauna__chunks.sqlite",
+     "bytes": 5521408,
+     "sha256": "4ac477f117f51971d4627758b7894cdd820875ac7937b32d2af2c12bcf07d490"
+    },
+    {
+     "path": "packs/state-NJ-flora-fauna/manifest.json",
+     "asset": "NJ--packs__state-NJ-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "3493ec690c06b7dc694d7f425b8fef8a2234f0b7957df1d83048caa8ab5cf303"
+    },
+    {
+     "path": "packs/state-NJ-flora-fauna/vectors.i8",
+     "asset": "NJ--packs__state-NJ-flora-fauna__vectors.i8",
+     "bytes": 2674176,
+     "sha256": "d6fe3af03609357887b2930438ed01824c6d731e65cdd901c8c0b831af6e1dd0"
+    },
+    {
+     "path": "packs/state-NJ-flora-fauna/vectors.scale",
+     "asset": "NJ--packs__state-NJ-flora-fauna__vectors.scale",
+     "bytes": 13928,
+     "sha256": "76e347331838016975596cdc8a73f28274c3980b75c94e31a130adc27e8df087"
+    }
+   ]
+  },
+  "NM": {
+   "bytes": 191771395,
+   "builtAt": "2026-09-26T15:52:36.179Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-NM-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-NM.pmtiles",
+     "asset": "NM--contours-NM.pmtiles",
+     "bytes": 36783375,
+     "sha256": "aef21ae8734766333f4f0e4ba6da9364636f02931b2daa27ca6b54811e2bdc92"
+    },
+    {
+     "path": "coverage-NM-voice.bin",
+     "asset": "NM--coverage-NM-voice.bin",
+     "bytes": 12924,
+     "sha256": "d249cfe68892b793a21a9a7319bfcec25ccf117fd110a9d9df4f089b34f7faf1"
+    },
+    {
+     "path": "map-NM-z14.pmtiles",
+     "asset": "NM--map-NM-z14.pmtiles",
+     "bytes": 143939408,
+     "sha256": "214811d35df6dacd01d57a46d5ddd3f60d62751fd2c81c5802216e718429c42e"
+    },
+    {
+     "path": "packs/state-NM-flora-fauna/chunks.sqlite",
+     "asset": "NM--packs__state-NM-flora-fauna__chunks.sqlite",
+     "bytes": 7405568,
+     "sha256": "a4be3224625029cc5b6f8aa80734b4d4688aff727f1abbfc6bb441da62564c3a"
+    },
+    {
+     "path": "packs/state-NM-flora-fauna/manifest.json",
+     "asset": "NM--packs__state-NM-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "8154665ab96e19a916bf0313ed73e57eabceb6409bb4bab797e4517a7568fe40"
+    },
+    {
+     "path": "packs/state-NM-flora-fauna/vectors.i8",
+     "asset": "NM--packs__state-NM-flora-fauna__vectors.i8",
+     "bytes": 3586560,
+     "sha256": "6847c4714741427d9b7a2a411b7cfeac73aa5fe7e0621cdedeb5ca4070b2c1ff"
+    },
+    {
+     "path": "packs/state-NM-flora-fauna/vectors.scale",
+     "asset": "NM--packs__state-NM-flora-fauna__vectors.scale",
+     "bytes": 18680,
+     "sha256": "0605328a8892782be5970168b3da8ff40ca568744a412136d1106c3f7f40f45c"
+    }
+   ]
+  },
+  "NV": {
+   "bytes": 288321299,
+   "builtAt": "2026-09-26T15:53:04.038Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-NV-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-NV.pmtiles",
+     "asset": "NV--contours-NV.pmtiles",
+     "bytes": 74322863,
+     "sha256": "6f0f2e1b993f6c3b4074dd66032489f661e356e15d21f06e06f9ac55b3c0774f"
+    },
+    {
+     "path": "coverage-NV-voice.bin",
+     "asset": "NV--coverage-NV-voice.bin",
+     "bytes": 18115,
+     "sha256": "a8a00c08db00ea9a7288eca584c25ea9f6785884730fa1672547e5ec8d76888f"
+    },
+    {
+     "path": "map-NV-z14.pmtiles",
+     "asset": "NV--map-NV-z14.pmtiles",
+     "bytes": 204171749,
+     "sha256": "01802fe72a9471a4f5c80a166145e9fb01c1e1d79f4466089bd0d337ce7cfda8"
+    },
+    {
+     "path": "packs/state-NV-flora-fauna/chunks.sqlite",
+     "asset": "NV--packs__state-NV-flora-fauna__chunks.sqlite",
+     "bytes": 6594560,
+     "sha256": "3db6838d28585bba732a14714b908e6325d6b7f437d500662eaac1bbea3b37b3"
+    },
+    {
+     "path": "packs/state-NV-flora-fauna/manifest.json",
+     "asset": "NV--packs__state-NV-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "394c33a9f34aff9cda43f507aba565ad9eb5957f57e8d4d4ac69c8971dbc447f"
+    },
+    {
+     "path": "packs/state-NV-flora-fauna/vectors.i8",
+     "asset": "NV--packs__state-NV-flora-fauna__vectors.i8",
+     "bytes": 3172608,
+     "sha256": "085b2716bb455ed9df7092aa7dcbcd23a167184619e3d1f09cc8d40cce86bc36"
+    },
+    {
+     "path": "packs/state-NV-flora-fauna/vectors.scale",
+     "asset": "NV--packs__state-NV-flora-fauna__vectors.scale",
+     "bytes": 16524,
+     "sha256": "c654a602a59c5cc6bd919c4ae20b913f9d2664bc4b7d3fc543a88c50a95fcc14"
+    }
+   ]
+  },
+  "NY": {
+   "bytes": 688506675,
+   "builtAt": "2026-09-26T15:53:20.309Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-NY-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-NY.pmtiles",
+     "asset": "NY--contours-NY.pmtiles",
+     "bytes": 34843210,
+     "sha256": "acc3f82f2415d16f236bdbcd64b72c68ff3d8f4fe9b634f3a46e04bb874f960c"
+    },
+    {
+     "path": "coverage-NY-voice.bin",
+     "asset": "NY--coverage-NY-voice.bin",
+     "bytes": 6917,
+     "sha256": "7ffe8cb0a068f3a231f53cb74667116965f8102c29feea0e7aef349f97b5adee"
+    },
+    {
+     "path": "map-NY-z14.pmtiles",
+     "asset": "NY--map-NY-z14.pmtiles",
+     "bytes": 644497776,
+     "sha256": "c5fec15f0d1cbac4d9d3671ff389be40661eab9211e1463a085184b425ed1b7a"
+    },
+    {
+     "path": "packs/state-NY-flora-fauna/chunks.sqlite",
+     "asset": "NY--packs__state-NY-flora-fauna__chunks.sqlite",
+     "bytes": 6156288,
+     "sha256": "cdfefdafb75843770facdbfd4ad6a6fba0e807c809f3dccddbf4d2084458d96f"
+    },
+    {
+     "path": "packs/state-NY-flora-fauna/manifest.json",
+     "asset": "NY--packs__state-NY-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "004b1408b41e9d938e9d80c3504b7949ed5a8dcd93ea7ec64ea97394bbb045c6"
+    },
+    {
+     "path": "packs/state-NY-flora-fauna/vectors.i8",
+     "asset": "NY--packs__state-NY-flora-fauna__vectors.i8",
+     "bytes": 2962176,
+     "sha256": "678b6f92955a9de33ea855c9862f0f8c1941b5dc68db22f09b22591378a224d5"
+    },
+    {
+     "path": "packs/state-NY-flora-fauna/vectors.scale",
+     "asset": "NY--packs__state-NY-flora-fauna__vectors.scale",
+     "bytes": 15428,
+     "sha256": "3a89dd5652b928ecc9fa3e4209c13c6b133672b684ba0afb0ec0b7b550c44dca"
+    }
+   ]
+  },
+  "OH": {
+   "bytes": 347489163,
+   "builtAt": "2026-09-26T15:53:36.015Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-OH-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-OH.pmtiles",
+     "asset": "OH--contours-OH.pmtiles",
+     "bytes": 18247884,
+     "sha256": "9c2a96ce07e244d1252921e25dbf2990ebb9bd361ef819d0108a56ca7600f303"
+    },
+    {
+     "path": "coverage-OH-voice.bin",
+     "asset": "OH--coverage-OH-voice.bin",
+     "bytes": 4397,
+     "sha256": "4a0e06b122adce979f2f7e09cd0e68fe4cb3dd48a4fc6c7eaf47f48fe80a9adf"
+    },
+    {
+     "path": "map-OH-z14.pmtiles",
+     "asset": "OH--map-OH-z14.pmtiles",
+     "bytes": 321139158,
+     "sha256": "95cdc8505b2ffd75ae3423e4b6d401d51d38782458eccf5d4d36dd910dfd4ccc"
+    },
+    {
+     "path": "packs/state-OH-flora-fauna/chunks.sqlite",
+     "asset": "OH--packs__state-OH-flora-fauna__chunks.sqlite",
+     "bytes": 5427200,
+     "sha256": "fe7f3c2b34355996483f601bd42b502ce8aa850c37c4b16e1671faaa3b273274"
+    },
+    {
+     "path": "packs/state-OH-flora-fauna/manifest.json",
+     "asset": "OH--packs__state-OH-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "bbfc9c442e39ca28e80f66d110424016587d39ac3da555a5ee7b11548539226b"
+    },
+    {
+     "path": "packs/state-OH-flora-fauna/vectors.i8",
+     "asset": "OH--packs__state-OH-flora-fauna__vectors.i8",
+     "bytes": 2631936,
+     "sha256": "c90511ef441c90598323946dcf6d7648465837e5ce7d8a2659a5919dee2307c4"
+    },
+    {
+     "path": "packs/state-OH-flora-fauna/vectors.scale",
+     "asset": "OH--packs__state-OH-flora-fauna__vectors.scale",
+     "bytes": 13708,
+     "sha256": "94150296f19e34691aa8848c40c3472f7d0f03a1a32eb8745cec9640f91f5936"
+    }
+   ]
+  },
+  "OK": {
+   "bytes": 187701295,
+   "builtAt": "2026-09-26T15:54:06.528Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-OK-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-OK.pmtiles",
+     "asset": "OK--contours-OK.pmtiles",
+     "bytes": 16109436,
+     "sha256": "8c707a7073c595683299e6fe3a565c16f63c02c54b2260fc706aaed9b02e6831"
+    },
+    {
+     "path": "coverage-OK-voice.bin",
+     "asset": "OK--coverage-OK-voice.bin",
+     "bytes": 8610,
+     "sha256": "c664a1fe13c10fd28c1dd650e22970f1909ab7caef0142c843d1d0f8b446aa3f"
+    },
+    {
+     "path": "map-OK-z14.pmtiles",
+     "asset": "OK--map-OK-z14.pmtiles",
+     "bytes": 163721461,
+     "sha256": "13f965e1df743b7fe4ca7ff769d070a356a4e9e1d03b48bc363d90d470277e38"
+    },
+    {
+     "path": "packs/state-OK-flora-fauna/chunks.sqlite",
+     "asset": "OK--packs__state-OK-flora-fauna__chunks.sqlite",
+     "bytes": 5271552,
+     "sha256": "ac0cfab69428c622bd5c76334787db440584b54e0ce48925dd515b8d7e756ab3"
+    },
+    {
+     "path": "packs/state-OK-flora-fauna/manifest.json",
+     "asset": "OK--packs__state-OK-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "b06f9d3b1a0e5cb2cf6248e84bff20188f902d0c8b2f0d5439f79d75552b6b00"
+    },
+    {
+     "path": "packs/state-OK-flora-fauna/vectors.i8",
+     "asset": "OK--packs__state-OK-flora-fauna__vectors.i8",
+     "bytes": 2552064,
+     "sha256": "521030c5d5b25783d39047068cfb57bde3d75616c5e13ffe607a48933eb37b86"
+    },
+    {
+     "path": "packs/state-OK-flora-fauna/vectors.scale",
+     "asset": "OK--packs__state-OK-flora-fauna__vectors.scale",
+     "bytes": 13292,
+     "sha256": "ddabfedf9d38c6138f2a2e30bffe2fe61bc920fc123cc2f540d7acafe1774341"
+    }
+   ]
+  },
+  "OR": {
+   "bytes": 322561427,
+   "builtAt": "2026-09-26T15:54:38.891Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-OR-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-OR.pmtiles",
+     "asset": "OR--contours-OR.pmtiles",
+     "bytes": 60255452,
+     "sha256": "adfe2bf6b737ee5e7ecb8e4f2fbdd2966059920d42e2c6c3fd39cf885335e7e5"
+    },
+    {
+     "path": "coverage-OR-voice.bin",
+     "asset": "OR--coverage-OR-voice.bin",
+     "bytes": 15226,
+     "sha256": "ebeae2bf1557ca6672f503a360609f80401362271ab55a348b8bcc4fd15d289e"
+    },
+    {
+     "path": "map-OR-z14.pmtiles",
+     "asset": "OR--map-OR-z14.pmtiles",
+     "bytes": 250635841,
+     "sha256": "69dc71b43ffa189522aa8c8490b8f2749b892f4c478e1c9f6a7f3d767980dc4f"
+    },
+    {
+     "path": "packs/state-OR-flora-fauna/chunks.sqlite",
+     "asset": "OR--packs__state-OR-flora-fauna__chunks.sqlite",
+     "bytes": 7835648,
+     "sha256": "9d4d989a8dda079e2a8a95190e0549667999a68daad429a7e99afc6f1761af9c"
+    },
+    {
+     "path": "packs/state-OR-flora-fauna/manifest.json",
+     "asset": "OR--packs__state-OR-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "e9e33cab4105efd7e7a7b6d21d0dc6f5160eded069ba60e5337209e893ae52a6"
+    },
+    {
+     "path": "packs/state-OR-flora-fauna/vectors.i8",
+     "asset": "OR--packs__state-OR-flora-fauna__vectors.i8",
+     "bytes": 3774720,
+     "sha256": "d5ddce63ec844984310f092c019f92b1196575c130b845ddae3f8d3d0a5d8aa5"
+    },
+    {
+     "path": "packs/state-OR-flora-fauna/vectors.scale",
+     "asset": "OR--packs__state-OR-flora-fauna__vectors.scale",
+     "bytes": 19660,
+     "sha256": "80795667f8df643e263187e3ad6c30b6d3f858648265a67651c46c0424426af9"
+    }
+   ]
+  },
+  "PA": {
+   "bytes": 348979231,
+   "builtAt": "2026-09-26T15:54:53.432Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-PA-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-PA.pmtiles",
+     "asset": "PA--contours-PA.pmtiles",
+     "bytes": 18848649,
+     "sha256": "c70516064e1126db1b40a7ada47c7fbcabbaf88ce486b4b4623cfd02dc43ed80"
+    },
+    {
+     "path": "coverage-PA-voice.bin",
+     "asset": "PA--coverage-PA-voice.bin",
+     "bytes": 4797,
+     "sha256": "6f5b0b5b09ddc2396effd2939f90a93d447225f3df88dbf25360c13a42124580"
+    },
+    {
+     "path": "map-PA-z14.pmtiles",
+     "asset": "PA--map-PA-z14.pmtiles",
+     "bytes": 321525265,
+     "sha256": "8fbb4251f21dd10e689169e5559970239688dd9f6c4879472010ad1f88df79a1"
+    },
+    {
+     "path": "packs/state-PA-flora-fauna/chunks.sqlite",
+     "asset": "PA--packs__state-PA-flora-fauna__chunks.sqlite",
+     "bytes": 5779456,
+     "sha256": "ab4de2a908c96c04e2faf37296646890da2f6aab052ce736f123de8d22f3c106"
+    },
+    {
+     "path": "packs/state-PA-flora-fauna/manifest.json",
+     "asset": "PA--packs__state-PA-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "e6371c3d0ef2bcb6b97c109125f079905d4c295977d5ab4505bdf9ac462a7288"
+    },
+    {
+     "path": "packs/state-PA-flora-fauna/vectors.i8",
+     "asset": "PA--packs__state-PA-flora-fauna__vectors.i8",
+     "bytes": 2781696,
+     "sha256": "ea35d5c4d567a0792fb9fb80104dec1d8a1f5558f84afa699c296cd1bb0bd791"
+    },
+    {
+     "path": "packs/state-PA-flora-fauna/vectors.scale",
+     "asset": "PA--packs__state-PA-flora-fauna__vectors.scale",
+     "bytes": 14488,
+     "sha256": "0f776dce8fcca66996035ccd65602fc8506fa70542453f859364295c388bb6d8"
+    }
+   ]
+  },
+  "PR": {
+   "bytes": 26801348,
+   "builtAt": "2026-09-26T15:54:57.391Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    }
+   },
+   "missing": [
+    "flora"
+   ],
+   "files": [
+    {
+     "path": "contours-PR.pmtiles",
+     "asset": "PR--contours-PR.pmtiles",
+     "bytes": 2556247,
+     "sha256": "f731bfeb56ec4ec127b253eeaa73b47ea8c05e5980bc6977134cff9c1366e451"
+    },
+    {
+     "path": "coverage-PR-voice.bin",
+     "asset": "PR--coverage-PR-voice.bin",
+     "bytes": 1063,
+     "sha256": "f088b7a887ac0725c39e12e20dcd53e318f1da1f6a476bb7aa3f701913ec37ac"
+    },
+    {
+     "path": "map-PR-z14.pmtiles",
+     "asset": "PR--map-PR-z14.pmtiles",
+     "bytes": 24244038,
+     "sha256": "d08e5ad5224e270e7f7ea4ed5cbe8c1382c15e8a46f11c00293f976b88aa30bb"
+    }
+   ]
+  },
+  "RI": {
+   "bytes": 63960839,
+   "builtAt": "2026-09-26T15:55:00.509Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-RI-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-RI.pmtiles",
+     "asset": "RI--contours-RI.pmtiles",
+     "bytes": 550089,
+     "sha256": "bf1da98043e3ab120cdd8ae3b2213c0d5b8754dc4a88fea2c239dad5f30109e3"
+    },
+    {
+     "path": "coverage-RI-voice.bin",
+     "asset": "RI--coverage-RI-voice.bin",
+     "bytes": 581,
+     "sha256": "60b0966da7fc91b6d2e6ed75688bc987aa97a1c55a1376473194300b10940d48"
+    },
+    {
+     "path": "map-RI-z14.pmtiles",
+     "asset": "RI--map-RI-z14.pmtiles",
+     "bytes": 56405853,
+     "sha256": "c9b7e5374c9cfb74d9e0e4bc78e658e78f2228ce73c24206d62de55ef5aea755"
+    },
+    {
+     "path": "packs/state-RI-flora-fauna/chunks.sqlite",
+     "asset": "RI--packs__state-RI-flora-fauna__chunks.sqlite",
+     "bytes": 4685824,
+     "sha256": "7c2f1f0bae41eb127ff24e72bdd47a371449d93ae5a1f1176a66f3ba1f2a61c6"
+    },
+    {
+     "path": "packs/state-RI-flora-fauna/manifest.json",
+     "asset": "RI--packs__state-RI-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "aa9c2886770d627fec00a8af9b4380845fd3ce9c472ac8af24caf073edc58e38"
+    },
+    {
+     "path": "packs/state-RI-flora-fauna/vectors.i8",
+     "asset": "RI--packs__state-RI-flora-fauna__vectors.i8",
+     "bytes": 2281728,
+     "sha256": "ba5d48c27f305664645293b05c0be7c19cd65fb3d7ee0c5cf45fc7a6ba9477df"
+    },
+    {
+     "path": "packs/state-RI-flora-fauna/vectors.scale",
+     "asset": "RI--packs__state-RI-flora-fauna__vectors.scale",
+     "bytes": 11884,
+     "sha256": "aede88a9746bd41ecf16dca7472a02c5db43eddbc9cbde3da8a901206b3bad74"
+    }
+   ]
+  },
+  "SC": {
+   "bytes": 223717249,
+   "builtAt": "2026-09-26T15:55:18.613Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-SC-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-SC.pmtiles",
+     "asset": "SC--contours-SC.pmtiles",
+     "bytes": 8413138,
+     "sha256": "5de5b0ab9a187b720b76d0954b0837169964b5e987a15e2f915d7828e24eb468"
+    },
+    {
+     "path": "coverage-SC-voice.bin",
+     "asset": "SC--coverage-SC-voice.bin",
+     "bytes": 4750,
+     "sha256": "82d1747a851da4169ed3ee58f1f550fbef35570d96e6b90d41ac533ca0276205"
+    },
+    {
+     "path": "map-SC-z14.pmtiles",
+     "asset": "SC--map-SC-z14.pmtiles",
+     "bytes": 208288505,
+     "sha256": "2f7a5717d2c29061a039242ea029ad6060f6ceb3714393e630f26987a4367293"
+    },
+    {
+     "path": "packs/state-SC-flora-fauna/chunks.sqlite",
+     "asset": "SC--packs__state-SC-flora-fauna__chunks.sqlite",
+     "bytes": 4665344,
+     "sha256": "0b1768bc58305899f53781602ee3e4b15c8d7fcd48b41b48015baa62acf79fb3"
+    },
+    {
+     "path": "packs/state-SC-flora-fauna/manifest.json",
+     "asset": "SC--packs__state-SC-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "c446a7f681ef93ff156b5d956baf901bc3ec2194545e0ab24282bb4a583dbf05"
+    },
+    {
+     "path": "packs/state-SC-flora-fauna/vectors.i8",
+     "asset": "SC--packs__state-SC-flora-fauna__vectors.i8",
+     "bytes": 2308608,
+     "sha256": "ac988da2363c4b00a0aa1e56340ff6cb3e61d00bcba8e5fb7771724dd4d15051"
+    },
+    {
+     "path": "packs/state-SC-flora-fauna/vectors.scale",
+     "asset": "SC--packs__state-SC-flora-fauna__vectors.scale",
+     "bytes": 12024,
+     "sha256": "258e3656fa2e0ad96311df0d23efb98dc157ae4831be230e054f96be1dd492ba"
+    }
+   ]
+  },
+  "SD": {
+   "bytes": 119744692,
+   "builtAt": "2026-09-26T15:55:52.528Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-SD-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-SD.pmtiles",
+     "asset": "SD--contours-SD.pmtiles",
+     "bytes": 20299136,
+     "sha256": "54de672cdec6b571b650d74e4c3da3abb6c186165d1e0bd5e6ef1789b590f2a8"
+    },
+    {
+     "path": "coverage-SD-voice.bin",
+     "asset": "SD--coverage-SD-voice.bin",
+     "bytes": 7995,
+     "sha256": "a35eb895e0fc8b3740edcfa53d026efdadfc04c4de58777a37cbdd14544626aa"
+    },
+    {
+     "path": "map-SD-z14.pmtiles",
+     "asset": "SD--map-SD-z14.pmtiles",
+     "bytes": 90505953,
+     "sha256": "bec5906b7ff8bd0b3aff5ac262d9418a6e6554bf6cd67028284b247277f76a70"
+    },
+    {
+     "path": "packs/state-SD-flora-fauna/chunks.sqlite",
+     "asset": "SD--packs__state-SD-flora-fauna__chunks.sqlite",
+     "bytes": 6045696,
+     "sha256": "7ddd7906a6717ca79cb8515f532d502908de9b0ad194a4928a55920921226ab9"
+    },
+    {
+     "path": "packs/state-SD-flora-fauna/manifest.json",
+     "asset": "SD--packs__state-SD-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "ba9686824b96d6957ea1c70b6ed0f66e88dcc067b5deeef1b7d16470f4ffc7a8"
+    },
+    {
+     "path": "packs/state-SD-flora-fauna/vectors.i8",
+     "asset": "SD--packs__state-SD-flora-fauna__vectors.i8",
+     "bytes": 2846208,
+     "sha256": "120c934e2f7fe4713f52422f941e1641c31baa09be53d82d894b286fa92b4fcd"
+    },
+    {
+     "path": "packs/state-SD-flora-fauna/vectors.scale",
+     "asset": "SD--packs__state-SD-flora-fauna__vectors.scale",
+     "bytes": 14824,
+     "sha256": "05c68d57312ca4a96a7eee07294406d9a10c0cfda7467133467ff0debde1b9e0"
+    }
+   ]
+  },
+  "TN": {
+   "bytes": 251535391,
+   "builtAt": "2026-09-26T15:56:13.989Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-TN-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-TN.pmtiles",
+     "asset": "TN--contours-TN.pmtiles",
+     "bytes": 30328758,
+     "sha256": "c52446bf8cae5f8d917001bd0452c96083c31aec62cad9c87504169904094584"
+    },
+    {
+     "path": "coverage-TN-voice.bin",
+     "asset": "TN--coverage-TN-voice.bin",
+     "bytes": 6270,
+     "sha256": "cb88ff54d64bafdfd09fbe31050c65e09d5b21a0f4d22e916d9e96a5eca14008"
+    },
+    {
+     "path": "map-TN-z14.pmtiles",
+     "asset": "TN--map-TN-z14.pmtiles",
+     "bytes": 213834187,
+     "sha256": "73b7e6d64cccab18c3a3e7448a4b6458d95dd19dcabf9c58df40e63ab719313d"
+    },
+    {
+     "path": "packs/state-TN-flora-fauna/chunks.sqlite",
+     "asset": "TN--packs__state-TN-flora-fauna__chunks.sqlite",
+     "bytes": 4923392,
+     "sha256": "bc7582197480db3ec367bf85e74eae3aa76452c6dc833bae7d2b2943c65e6665"
+    },
+    {
+     "path": "packs/state-TN-flora-fauna/manifest.json",
+     "asset": "TN--packs__state-TN-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "b67d5c0bf885df47bd3c399c1873b6cd3f5e09e49f62d92554083d6589147313"
+    },
+    {
+     "path": "packs/state-TN-flora-fauna/vectors.i8",
+     "asset": "TN--packs__state-TN-flora-fauna__vectors.i8",
+     "bytes": 2405376,
+     "sha256": "484d60e4798134e0992620fdf22614b8d060e21d84ed04bd2f9f8473035c3e26"
+    },
+    {
+     "path": "packs/state-TN-flora-fauna/vectors.scale",
+     "asset": "TN--packs__state-TN-flora-fauna__vectors.scale",
+     "bytes": 12528,
+     "sha256": "bee8153daf8f3c986f63852e132f10230339102790599c37868500d2bfcbd6a0"
+    }
+   ]
+  },
+  "TX": {
+   "bytes": 781831686,
+   "builtAt": "2026-09-26T15:57:44.366Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-TX-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-TX.pmtiles",
+     "asset": "TX--contours-TX.pmtiles",
+     "bytes": 88190670,
+     "sha256": "ff02d3f533404c6e25ace82903f56e06498079d686f21454ebfd089c86ed8e53"
+    },
+    {
+     "path": "coverage-TX-voice.bin",
+     "asset": "TX--coverage-TX-voice.bin",
+     "bytes": 18908,
+     "sha256": "eb1822b74544928d9e24aa0f34b1788f1d8d5df64386ca3819ed54e10e3afe47"
+    },
+    {
+     "path": "map-TX-z14.pmtiles",
+     "asset": "TX--map-TX-z14.pmtiles",
+     "bytes": 683261204,
+     "sha256": "456892f24f643170dd7003a0c63b9239cbcd1a2577666aa224685d34c5904e14"
+    },
+    {
+     "path": "packs/state-TX-flora-fauna/chunks.sqlite",
+     "asset": "TX--packs__state-TX-flora-fauna__chunks.sqlite",
+     "bytes": 6922240,
+     "sha256": "98ff1ad18af82d5e842712963f52bdac21e3d87282e4ecd166aa7d33b97d6adc"
+    },
+    {
+     "path": "packs/state-TX-flora-fauna/manifest.json",
+     "asset": "TX--packs__state-TX-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "7ab0a7928b95ee597573d385fbcc0d075e9a16c208668c98845d6f704b8d2e47"
+    },
+    {
+     "path": "packs/state-TX-flora-fauna/vectors.i8",
+     "asset": "TX--packs__state-TX-flora-fauna__vectors.i8",
+     "bytes": 3396096,
+     "sha256": "b7129a555c7d09b38a85d8d46086a4f0f3159677894525c505155c89587d272c"
+    },
+    {
+     "path": "packs/state-TX-flora-fauna/vectors.scale",
+     "asset": "TX--packs__state-TX-flora-fauna__vectors.scale",
+     "bytes": 17688,
+     "sha256": "95192f0eeee88e938f58b7757322bc15fb0d83831509e656d8b617c11928868c"
+    }
+   ]
+  },
+  "UT": {
+   "bytes": 211222088,
+   "builtAt": "2026-09-26T15:58:11.266Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-UT-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-UT.pmtiles",
+     "asset": "UT--contours-UT.pmtiles",
+     "bytes": 49898533,
+     "sha256": "dcc7424c6eb08b19a8b97494c2a2e9105bb5d88570a478f58f5f5e6234cd311b"
+    },
+    {
+     "path": "coverage-UT-voice.bin",
+     "asset": "UT--coverage-UT-voice.bin",
+     "bytes": 12432,
+     "sha256": "6266818371343d0a3998c316f6245ce524e586b03cc7d54f1cf44b36ecb69ea2"
+    },
+    {
+     "path": "map-UT-z14.pmtiles",
+     "asset": "UT--map-UT-z14.pmtiles",
+     "bytes": 150101603,
+     "sha256": "e75d6556565e709cd63f7f6e6cba81971902047c28568e232ec5c99e5580e063"
+    },
+    {
+     "path": "packs/state-UT-flora-fauna/chunks.sqlite",
+     "asset": "UT--packs__state-UT-flora-fauna__chunks.sqlite",
+     "bytes": 7528448,
+     "sha256": "630df229d9ddffbd6a0efd482bc745379b59315ce8875dfa10fca6dc06898c45"
+    },
+    {
+     "path": "packs/state-UT-flora-fauna/manifest.json",
+     "asset": "UT--packs__state-UT-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "8cc7b90b743527710dc0101404a3a4d9a7792e3f156bf070c233e01cd7302d5e"
+    },
+    {
+     "path": "packs/state-UT-flora-fauna/vectors.i8",
+     "asset": "UT--packs__state-UT-flora-fauna__vectors.i8",
+     "bytes": 3637248,
+     "sha256": "c6ee5cb0a507bf1cd178d41c68c5e11bec1f80609d428d3e3b777652d4d7b7a6"
+    },
+    {
+     "path": "packs/state-UT-flora-fauna/vectors.scale",
+     "asset": "UT--packs__state-UT-flora-fauna__vectors.scale",
+     "bytes": 18944,
+     "sha256": "8adaa0a90de073730f96410cccb9eaf885c4d906a272830dc7e498c93fe10b68"
+    }
+   ]
+  },
+  "VA": {
+   "bytes": 550530805,
+   "builtAt": "2026-09-26T15:58:31.076Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-VA-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-VA.pmtiles",
+     "asset": "VA--contours-VA.pmtiles",
+     "bytes": 47461522,
+     "sha256": "d7411d8094a3d0fbd758819a26b46c761bd419aeafc7fa96636c8918a30fe2ee"
+    },
+    {
+     "path": "coverage-VA-voice.bin",
+     "asset": "VA--coverage-VA-voice.bin",
+     "bytes": 6190,
+     "sha256": "759e0a6968155ccda51e380da0db12579e3b9b95744105bd2e45f364e3529d9e"
+    },
+    {
+     "path": "map-VA-z14.pmtiles",
+     "asset": "VA--map-VA-z14.pmtiles",
+     "bytes": 494472117,
+     "sha256": "4863d24efd0696952e858ff39167de988b0dae998b44e99d642b27018a4602dc"
+    },
+    {
+     "path": "packs/state-VA-flora-fauna/chunks.sqlite",
+     "asset": "VA--packs__state-VA-flora-fauna__chunks.sqlite",
+     "bytes": 5734400,
+     "sha256": "b81e2001815e9a0d6cc7d2ed7e69d1da3fca9490b89d40095f43920e49b87da5"
+    },
+    {
+     "path": "packs/state-VA-flora-fauna/manifest.json",
+     "asset": "VA--packs__state-VA-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "fe0f4c086a4a9d8d012f5ed69b3bf11821924875b1b2e713380abd3e4b087134"
+    },
+    {
+     "path": "packs/state-VA-flora-fauna/vectors.i8",
+     "asset": "VA--packs__state-VA-flora-fauna__vectors.i8",
+     "bytes": 2817024,
+     "sha256": "9d1eb3e7f322350d5a1efdc236628d95a8ab3b6d6a3979aa7a79cc3fb29bf11b"
+    },
+    {
+     "path": "packs/state-VA-flora-fauna/vectors.scale",
+     "asset": "VA--packs__state-VA-flora-fauna__vectors.scale",
+     "bytes": 14672,
+     "sha256": "a3ae5ffec43926e13d7b39d3b9301ff1125ce84bcd4a012a21a35a03fd78d91b"
+    }
+   ]
+  },
+  "VT": {
+   "bytes": 106037711,
+   "builtAt": "2026-09-26T15:58:36.902Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-VT-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-VT.pmtiles",
+     "asset": "VT--contours-VT.pmtiles",
+     "bytes": 8318715,
+     "sha256": "5ffe071f6320a9de2ed22b0398d169ae1891292e38d32ea17a1ff975c8b7e8d3"
+    },
+    {
+     "path": "coverage-VT-voice.bin",
+     "asset": "VT--coverage-VT-voice.bin",
+     "bytes": 2344,
+     "sha256": "812d045d7b3649f32acae2782f99dd83774fa5649451830fe18924e64c4b66bd"
+    },
+    {
+     "path": "map-VT-z14.pmtiles",
+     "asset": "VT--map-VT-z14.pmtiles",
+     "bytes": 89950572,
+     "sha256": "152527de3c09bcd54004d4eeb77303a46a01150adcca3af44c472251985e6367"
+    },
+    {
+     "path": "packs/state-VT-flora-fauna/chunks.sqlite",
+     "asset": "VT--packs__state-VT-flora-fauna__chunks.sqlite",
+     "bytes": 5218304,
+     "sha256": "4e799ab128eb3c6fbd9b6e1b73aef67ed610ff5adf9b85d2f08914402ce56723"
+    },
+    {
+     "path": "packs/state-VT-flora-fauna/manifest.json",
+     "asset": "VT--packs__state-VT-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "8cde02e7491010755b4cf11871f9b92e4a184414c439602798380ba1b222a075"
+    },
+    {
+     "path": "packs/state-VT-flora-fauna/vectors.i8",
+     "asset": "VT--packs__state-VT-flora-fauna__vectors.i8",
+     "bytes": 2509824,
+     "sha256": "2952c38255f09faa284c1c7d4abd2e5e821d7dd9497faa172c2618eb8b8891fe"
+    },
+    {
+     "path": "packs/state-VT-flora-fauna/vectors.scale",
+     "asset": "VT--packs__state-VT-flora-fauna__vectors.scale",
+     "bytes": 13072,
+     "sha256": "5e7fec76361f6a86633fcd3b5a4bb1b10f039ba7c8f40f1a9bb67e2f47d5dcdd"
+    }
+   ]
+  },
+  "WA": {
+   "bytes": 392179506,
+   "builtAt": "2026-09-26T15:59:03.278Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-WA-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-WA.pmtiles",
+     "asset": "WA--contours-WA.pmtiles",
+     "bytes": 56600895,
+     "sha256": "1c27d4ce91e34b595b9049c758eadec34a9c72d027d097c93e5f0492102514f8"
+    },
+    {
+     "path": "coverage-WA-voice.bin",
+     "asset": "WA--coverage-WA-voice.bin",
+     "bytes": 12898,
+     "sha256": "3c24263b8c03a1131f836198943bd181c4f79c2d2535b7058d82131d67d30932"
+    },
+    {
+     "path": "map-WA-z14.pmtiles",
+     "asset": "WA--map-WA-z14.pmtiles",
+     "bytes": 324559017,
+     "sha256": "4aebfaa7848825f90ebd06f10e8d5fa0590feb589e16dc230ea208d62cfd03de"
+    },
+    {
+     "path": "packs/state-WA-flora-fauna/chunks.sqlite",
+     "asset": "WA--packs__state-WA-flora-fauna__chunks.sqlite",
+     "bytes": 7438336,
+     "sha256": "072b18a8a895f135813a7efa84fb58aec5fe021a36ac3b66baad16e361ccce24"
+    },
+    {
+     "path": "packs/state-WA-flora-fauna/manifest.json",
+     "asset": "WA--packs__state-WA-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "912f15fc40b1e485b38ef3de68882dd11ac0d490d179918e2444736b3b155020"
+    },
+    {
+     "path": "packs/state-WA-flora-fauna/vectors.i8",
+     "asset": "WA--packs__state-WA-flora-fauna__vectors.i8",
+     "bytes": 3525120,
+     "sha256": "b6fa9f666f1669573a3e6a065a7884408675134916329fd2c0040a534570b408"
+    },
+    {
+     "path": "packs/state-WA-flora-fauna/vectors.scale",
+     "asset": "WA--packs__state-WA-flora-fauna__vectors.scale",
+     "bytes": 18360,
+     "sha256": "0cb52ec3d8aa33e1d480b650761ae07d72c583f6d0d9d7895bd4d8aa1ff1203b"
+    }
+   ]
+  },
+  "WI": {
+   "bytes": 329862535,
+   "builtAt": "2026-09-26T15:59:30.955Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-WI-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-WI.pmtiles",
+     "asset": "WI--contours-WI.pmtiles",
+     "bytes": 16359728,
+     "sha256": "590fdfee1ec85d9ef71521fe9c75e71eaa715ad5a6230acc8a347041c1519a4b"
+    },
+    {
+     "path": "coverage-WI-voice.bin",
+     "asset": "WI--coverage-WI-voice.bin",
+     "bytes": 7999,
+     "sha256": "248f6b4d1d301cf7b391ff7b9f4835d27f85c10c8c6fca8571e28515f2abf764"
+    },
+    {
+     "path": "map-WI-z14.pmtiles",
+     "asset": "WI--map-WI-z14.pmtiles",
+     "bytes": 305133612,
+     "sha256": "8802bd93c059d6e5179b6416ed8e1caf0da3e6ec0e6e2a6cd46510e6de921ec0"
+    },
+    {
+     "path": "packs/state-WI-flora-fauna/chunks.sqlite",
+     "asset": "WI--packs__state-WI-flora-fauna__chunks.sqlite",
+     "bytes": 5632000,
+     "sha256": "651aeb39e3745227617f35abd28f297f931a8d1845f5e97ca2829f0fc3635328"
+    },
+    {
+     "path": "packs/state-WI-flora-fauna/manifest.json",
+     "asset": "WI--packs__state-WI-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "d9a76557bab28f310c398538d0260315a96657a342c223656af8655afd7c08c6"
+    },
+    {
+     "path": "packs/state-WI-flora-fauna/vectors.i8",
+     "asset": "WI--packs__state-WI-flora-fauna__vectors.i8",
+     "bytes": 2690304,
+     "sha256": "b5ce6bb67f76d168019bd94d1c968fee846ce2c39816c8240d0295a03d45e0d2"
+    },
+    {
+     "path": "packs/state-WI-flora-fauna/vectors.scale",
+     "asset": "WI--packs__state-WI-flora-fauna__vectors.scale",
+     "bytes": 14012,
+     "sha256": "364600d9ca63ddbff6b09f0622827347a17fa28d19a2830db8d1d68eb692aaa7"
+    }
+   ]
+  },
+  "WV": {
+   "bytes": 381146478,
+   "builtAt": "2026-09-26T15:59:38.228Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-WV-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-WV.pmtiles",
+     "asset": "WV--contours-WV.pmtiles",
+     "bytes": 40041967,
+     "sha256": "dff4f36d8cf9d78d21db1e982942a95111e29396d9677d9b00eaa9bd76f90ae8"
+    },
+    {
+     "path": "coverage-WV-voice.bin",
+     "asset": "WV--coverage-WV-voice.bin",
+     "bytes": 5299,
+     "sha256": "97cbf6ee6cc47c8f2126be44211da1778ea1b74a0b06532fe27bc6064b22281c"
+    },
+    {
+     "path": "map-WV-z14.pmtiles",
+     "asset": "WV--map-WV-z14.pmtiles",
+     "bytes": 333559804,
+     "sha256": "eb32493fdf98ae6feefc1eaab1784e697882e8d44737aa1744cc61318c28a435"
+    },
+    {
+     "path": "packs/state-WV-flora-fauna/chunks.sqlite",
+     "asset": "WV--packs__state-WV-flora-fauna__chunks.sqlite",
+     "bytes": 5062656,
+     "sha256": "e87c07bd348e6efdfd35dc892228b6498503bed004badf0c899064d3b9d6e089"
+    },
+    {
+     "path": "packs/state-WV-flora-fauna/manifest.json",
+     "asset": "WV--packs__state-WV-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "b82e76a186c6b6ae88f83a4133527c0683c284a0053dac1c8296791b72923309"
+    },
+    {
+     "path": "packs/state-WV-flora-fauna/vectors.i8",
+     "asset": "WV--packs__state-WV-flora-fauna__vectors.i8",
+     "bytes": 2439168,
+     "sha256": "fc0d865deb43845fe16310d35dd70d7a7f0ac207e1de5a9ce0987e5ddcef787d"
+    },
+    {
+     "path": "packs/state-WV-flora-fauna/vectors.scale",
+     "asset": "WV--packs__state-WV-flora-fauna__vectors.scale",
+     "bytes": 12704,
+     "sha256": "9f7b1556dc3998f95b0e88d5869cd363a6eeb1a543446f752d14576443e85bbb"
+    }
+   ]
+  },
+  "WY": {
+   "bytes": 187455951,
+   "builtAt": "2026-09-26T16:00:16.624Z",
+   "components": {
+    "basemap": {
+     "source": "https://build.protomaps.com/20260920.pmtiles",
+     "maxzoom": 14
+    },
+    "contours": {
+     "source": "https://download.mapterhorn.com/planet.pmtiles",
+     "intervals": "200 m z10, 100 m z11, 40 m z12"
+    },
+    "coverage": {
+     "source": "FCC Broadband Data Collection, mobile voice"
+    },
+    "flora": {
+     "id": "state-WY-flora-fauna",
+     "version": "1.1.0",
+     "encoder": "google/embeddinggemma-300m"
+    }
+   },
+   "missing": [],
+   "files": [
+    {
+     "path": "contours-WY.pmtiles",
+     "asset": "WY--contours-WY.pmtiles",
+     "bytes": 44459941,
+     "sha256": "dcb2c2a1aee654f305fb72f7493364aa57dcef1b7e5a8f56b19fe910a1b96ee3"
+    },
+    {
+     "path": "coverage-WY-voice.bin",
+     "asset": "WY--coverage-WY-voice.bin",
+     "bytes": 18840,
+     "sha256": "f070e5bfd34c3a828e2efc9c5f8043b9a4cf3de3b028941730a78d437c06cab2"
+    },
+    {
+     "path": "map-WY-z14.pmtiles",
+     "asset": "WY--map-WY-z14.pmtiles",
+     "bytes": 132355474,
+     "sha256": "e97a0d58ebbeef8c9a09a23273242e449910a73cf8066431f8649ff32b10d3ee"
+    },
+    {
+     "path": "packs/state-WY-flora-fauna/chunks.sqlite",
+     "asset": "WY--packs__state-WY-flora-fauna__chunks.sqlite",
+     "bytes": 7147520,
+     "sha256": "e9538924f9e8a89d9dc96b8115912c68aff35103725978c97d40d4484e4de2aa"
+    },
+    {
+     "path": "packs/state-WY-flora-fauna/manifest.json",
+     "asset": "WY--packs__state-WY-flora-fauna__manifest.json",
+     "bytes": 24880,
+     "sha256": "1b4ec82684b1261abe190ddfd9ab8e528ab9fadecd17850f82b290cad7270f54"
+    },
+    {
+     "path": "packs/state-WY-flora-fauna/vectors.i8",
+     "asset": "WY--packs__state-WY-flora-fauna__vectors.i8",
+     "bytes": 3431424,
+     "sha256": "5a4b9a26a21f9926abc60c86f5928ca47a905ff4a9239eb005c7659dd01639bc"
+    },
+    {
+     "path": "packs/state-WY-flora-fauna/vectors.scale",
+     "asset": "WY--packs__state-WY-flora-fauna__vectors.scale",
+     "bytes": 17872,
+     "sha256": "da586aa8f5dce5a7966cf88e824938ee31eb266fb58ff43c48f8ce3cbf860aae"
+    }
+   ]
+  }
+ }
+}
