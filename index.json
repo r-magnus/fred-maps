@@ -3789,5 +3789,590 @@
     }
    ]
   }
+ },
+ "core": {
+  "bytes": 1454566135,
+  "builtAt": "2026-11-14T17:50:23.196Z",
+  "release": "core-2026-11",
+  "baseUrl": "https://github.com/r-magnus/fred-maps/releases/download/core-2026-11/",
+  "components": {
+   "generator": {
+    "path": "Qwen3-1.7B-Q4_K_M.gguf"
+   },
+   "encoder": {
+    "id": "google/embeddinggemma-300m",
+    "paths": [
+     "embeddinggemma-300M-Q8_0.gguf"
+    ]
+   },
+   "packs": [
+    {
+     "path": "packs/core-fieldcards",
+     "id": "core-fieldcards",
+     "version": "0.10.0"
+    },
+    {
+     "path": "packs/core-firstaid-army",
+     "id": "core-firstaid-army",
+     "version": "1.4.1"
+    },
+    {
+     "path": "packs/core-firstaid",
+     "id": "core-firstaid",
+     "version": "1.4.1"
+    },
+    {
+     "path": "packs/core-hazards",
+     "id": "core-hazards",
+     "version": "1.2.0"
+    },
+    {
+     "path": "packs/core-health",
+     "id": "core-health",
+     "version": "1.1.1"
+    },
+    {
+     "path": "packs/core-signaling",
+     "id": "core-signaling",
+     "version": "1.0.1"
+    },
+    {
+     "path": "packs/core-survival",
+     "id": "core-survival",
+     "version": "1.4.1"
+    },
+    {
+     "path": "packs/core-tips-nps",
+     "id": "core-tips-nps",
+     "version": "1.1.1"
+    },
+    {
+     "path": "packs/core-tips-wikivoyage",
+     "id": "core-tips-wikivoyage",
+     "version": "1.0.1"
+    },
+    {
+     "path": "packs/core-wildlife-safety",
+     "id": "core-wildlife-safety",
+     "version": "1.0.1"
+    }
+   ]
+  },
+  "missing": [],
+  "files": [
+   {
+    "path": "Qwen3-1.7B-Q4_K_M.gguf",
+    "asset": "core--Qwen3-1.7B-Q4_K_M.gguf",
+    "bytes": 1107409472,
+    "sha256": "b139949c5bd74937ad8ed8c8cf3d9ffb1e99c866c823204dc42c0d91fa181897",
+    "md5": "dc4836c71a28a136d2a5b782b8465b6f",
+    "parts": [
+     {
+      "asset": "core--Qwen3-1.7B-Q4_K_M.gguf.p000",
+      "bytes": 104857600,
+      "md5": "0ff893b9f35ef1d9bde20285e292be60"
+     },
+     {
+      "asset": "core--Qwen3-1.7B-Q4_K_M.gguf.p001",
+      "bytes": 104857600,
+      "md5": "904a1bdfb722434514d453b41cc65e21"
+     },
+     {
+      "asset": "core--Qwen3-1.7B-Q4_K_M.gguf.p002",
+      "bytes": 104857600,
+      "md5": "432cf226f32868c66f83ab0df405b913"
+     },
+     {
+      "asset": "core--Qwen3-1.7B-Q4_K_M.gguf.p003",
+      "bytes": 104857600,
+      "md5": "812afdd1a1b6f3c31e77a8c206dea9b8"
+     },
+     {
+      "asset": "core--Qwen3-1.7B-Q4_K_M.gguf.p004",
+      "bytes": 104857600,
+      "md5": "5e8cb0becff8388a24666121c7dfcc1e"
+     },
+     {
+      "asset": "core--Qwen3-1.7B-Q4_K_M.gguf.p005",
+      "bytes": 104857600,
+      "md5": "000be071c68ea41bfdff62c7f8294e07"
+     },
+     {
+      "asset": "core--Qwen3-1.7B-Q4_K_M.gguf.p006",
+      "bytes": 104857600,
+      "md5": "224840faf7e7ef9a598d6d87808bd844"
+     },
+     {
+      "asset": "core--Qwen3-1.7B-Q4_K_M.gguf.p007",
+      "bytes": 104857600,
+      "md5": "1d34b5f8c44e586eb5c8459fb1bbff44"
+     },
+     {
+      "asset": "core--Qwen3-1.7B-Q4_K_M.gguf.p008",
+      "bytes": 104857600,
+      "md5": "e3ac47b5e1911c05cf9764c2639c0495"
+     },
+     {
+      "asset": "core--Qwen3-1.7B-Q4_K_M.gguf.p009",
+      "bytes": 104857600,
+      "md5": "4328a96c2fd4fd96c1111a626a47971f"
+     },
+     {
+      "asset": "core--Qwen3-1.7B-Q4_K_M.gguf.p010",
+      "bytes": 58833472,
+      "md5": "0bd93cf7370579550114212085390f06"
+     }
+    ]
+   },
+   {
+    "path": "embeddinggemma-300M-Q8_0.gguf",
+    "asset": "core--embeddinggemma-300M-Q8_0.gguf",
+    "bytes": 333590944,
+    "sha256": "b5ce9d77a3fc4b3b39ccb5643c36777911cc4eb46a66962eadfa3f5f60490d63",
+    "md5": "29ebd01c9362065f36405ef185c7755d",
+    "parts": [
+     {
+      "asset": "core--embeddinggemma-300M-Q8_0.gguf.p000",
+      "bytes": 104857600,
+      "md5": "c5de31652fde42e8d2f093c306656b91"
+     },
+     {
+      "asset": "core--embeddinggemma-300M-Q8_0.gguf.p001",
+      "bytes": 104857600,
+      "md5": "f2d0335598a0dcdc3ba04147dd427f26"
+     },
+     {
+      "asset": "core--embeddinggemma-300M-Q8_0.gguf.p002",
+      "bytes": 104857600,
+      "md5": "8ef3e5ef1283805ca7ad343f6b327535"
+     },
+     {
+      "asset": "core--embeddinggemma-300M-Q8_0.gguf.p003",
+      "bytes": 19018144,
+      "md5": "744042b7b95061cf9fe92f4299ca42f1"
+     }
+    ]
+   },
+   {
+    "path": "licenses/APACHE-2.0.txt",
+    "asset": "core--licenses__APACHE-2.0.txt",
+    "bytes": 10173,
+    "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+    "md5": "e23fadd6ceef8c618fc1c65191d846fa"
+   },
+   {
+    "path": "licenses/GEMMA-PROHIBITED-USE-POLICY.txt",
+    "asset": "core--licenses__GEMMA-PROHIBITED-USE-POLICY.txt",
+    "bytes": 3837,
+    "sha256": "28cfd6a673fe4f5de6b02f3aac7e0226c60e2c900d3cc68dcc0315851a03e21d",
+    "md5": "a8333ef038f73cf444384596a418902f"
+   },
+   {
+    "path": "licenses/GEMMA-TERMS-OF-USE.txt",
+    "asset": "core--licenses__GEMMA-TERMS-OF-USE.txt",
+    "bytes": 8806,
+    "sha256": "cde76649a5b430dc76b5caf04ca067dc6d20e63294adbbedf288be059d703495",
+    "md5": "39ecdedd6ba3c6600aa032a652791ec6"
+   },
+   {
+    "path": "licenses/NOTICE.txt",
+    "asset": "core--licenses__NOTICE.txt",
+    "bytes": 4380,
+    "sha256": "8b7de4455548963ebf76f440efe70d2795f741dc9b8d5ccc94f0838a2c956fd8",
+    "md5": "4d1f8ac98091f78937806deb56d75d9a"
+   },
+   {
+    "path": "packs/core-fieldcards/chunks.sqlite",
+    "asset": "core--packs__core-fieldcards__chunks.sqlite",
+    "bytes": 139264,
+    "sha256": "18bc878a7d6c9c3a449df5bd1a815ddc140860918fa0e5f789cd2ac5be7af589",
+    "md5": "6ec86179dc1f2843deeb1231a239bdb9"
+   },
+   {
+    "path": "packs/core-fieldcards/manifest.json",
+    "asset": "core--packs__core-fieldcards__manifest.json",
+    "bytes": 471925,
+    "sha256": "9ac34fb89da2a6f27e0c5577030be5eb382077556b14d82387df548fed666290",
+    "md5": "be5cfdc031263af0b43bf79771e93702"
+   },
+   {
+    "path": "packs/core-fieldcards/vectors.i8",
+    "asset": "core--packs__core-fieldcards__vectors.i8",
+    "bytes": 33792,
+    "sha256": "cdc93bc649b04e654a39e77ea9e76ea3def09ac7f700b905ca3e8874468b34ff",
+    "md5": "2296bcfccbb43dcb442f4ec135cdc83a"
+   },
+   {
+    "path": "packs/core-fieldcards/vectors.scale",
+    "asset": "core--packs__core-fieldcards__vectors.scale",
+    "bytes": 176,
+    "sha256": "720f510fb3168baa431ac33bad4785ab9fdb92029432a594edaa6ea34ac09bdb",
+    "md5": "f80a101c6bc0436fc7ad7b6c16f2e73d"
+   },
+   {
+    "path": "packs/core-firstaid-army/chunks.sqlite",
+    "asset": "core--packs__core-firstaid-army__chunks.sqlite",
+    "bytes": 892928,
+    "sha256": "c83d2dc02fcffcad9205f399b722b1a0bb3b38201b51ed7516f9b42dc37ca399",
+    "md5": "2dd6cee75c7355e10f804914688c8a73"
+   },
+   {
+    "path": "packs/core-firstaid-army/manifest.json",
+    "asset": "core--packs__core-firstaid-army__manifest.json",
+    "bytes": 25367,
+    "sha256": "d270dd2162cba6fa0a4d5ffa057d084cb247671b1a508972a31de5176846f1f7",
+    "md5": "aac961bb98b54571badc889f7acf4864"
+   },
+   {
+    "path": "packs/core-firstaid-army/sentences.i8",
+    "asset": "core--packs__core-firstaid-army__sentences.i8",
+    "bytes": 1384704,
+    "sha256": "94d6261012652e6737a227cfd90977ae99e22275da4d0d9854dd66f968879bb6",
+    "md5": "b2ae1ea5e6a61eba1f3f950fa9a874be"
+   },
+   {
+    "path": "packs/core-firstaid-army/sentences.idx",
+    "asset": "core--packs__core-firstaid-army__sentences.idx",
+    "bytes": 1460,
+    "sha256": "9ce622c1be1db2ec4674a690a0c0ccdbf3c46bff520c1d1693fa7d26bf86433b",
+    "md5": "9c7dca882d572b77bc8b271e08659cce"
+   },
+   {
+    "path": "packs/core-firstaid-army/vectors.i8",
+    "asset": "core--packs__core-firstaid-army__vectors.i8",
+    "bytes": 279552,
+    "sha256": "e4fb1eba3d62e9c6e901780d6b496c03e26adb77dd18f11e02039b9120ca0ade",
+    "md5": "be3b5363f898883fa3f4b450147a48fd"
+   },
+   {
+    "path": "packs/core-firstaid-army/vectors.scale",
+    "asset": "core--packs__core-firstaid-army__vectors.scale",
+    "bytes": 1456,
+    "sha256": "d8e5ea2bf401d22c33b386e4e0c4fe13491ef8649f6815adb266232da9456983",
+    "md5": "6309fb1cef0da208fbd5cbe5b9df48ec"
+   },
+   {
+    "path": "packs/core-firstaid/chunks.sqlite",
+    "asset": "core--packs__core-firstaid__chunks.sqlite",
+    "bytes": 925696,
+    "sha256": "9bbfbc016864912859fb2b8cb97a361be3893e68c84a99ee8d2a0556d57596e0",
+    "md5": "6632cb24ceadc65bc267f70a0c13aab2"
+   },
+   {
+    "path": "packs/core-firstaid/manifest.json",
+    "asset": "core--packs__core-firstaid__manifest.json",
+    "bytes": 25139,
+    "sha256": "538d240e98527232083ab17532ee1c9b5dfc4b979a521e6222e8e8039ce99bf4",
+    "md5": "7694bee590d5c48961552dc313280791"
+   },
+   {
+    "path": "packs/core-firstaid/sentences.i8",
+    "asset": "core--packs__core-firstaid__sentences.i8",
+    "bytes": 1620224,
+    "sha256": "dc698a23105cdd972df8ff4fb0898fdeed7619354ea0b9fbf6e623095a31135d",
+    "md5": "4daf0dc6391f7f4b22dc15b7d1683bdb"
+   },
+   {
+    "path": "packs/core-firstaid/sentences.idx",
+    "asset": "core--packs__core-firstaid__sentences.idx",
+    "bytes": 2408,
+    "sha256": "9002c807e25400a740a4787390db5800845dcd905a925cf707ba5847ffeaaa32",
+    "md5": "10d0f6683d41179c1caec4ad897f758b"
+   },
+   {
+    "path": "packs/core-firstaid/vectors.i8",
+    "asset": "core--packs__core-firstaid__vectors.i8",
+    "bytes": 461568,
+    "sha256": "69221fba6153a6c05e16f28f7eb371d89e77b806d87631c1889434b57c3a4a88",
+    "md5": "0d25c2031ebb5068b9675cde08ecb813"
+   },
+   {
+    "path": "packs/core-firstaid/vectors.scale",
+    "asset": "core--packs__core-firstaid__vectors.scale",
+    "bytes": 2404,
+    "sha256": "e58a5631526ff5af037af51fc78636c78a4c9f6968ae06d3fc7b011b94ab2572",
+    "md5": "1441a1dbda30e63bc242768af598f5f5"
+   },
+   {
+    "path": "packs/core-hazards/chunks.sqlite",
+    "asset": "core--packs__core-hazards__chunks.sqlite",
+    "bytes": 163840,
+    "sha256": "3a544d217395927bee31924a811575ed7fb2e778d0b34c12c7acf4a6fb0a317d",
+    "md5": "70a1b13135f88f51ce9f0e3c94f8734a"
+   },
+   {
+    "path": "packs/core-hazards/manifest.json",
+    "asset": "core--packs__core-hazards__manifest.json",
+    "bytes": 26057,
+    "sha256": "6d8dc38fc23faef7fdac67dd2414fb00de577b704858fd89db7c9ed1c52e7608",
+    "md5": "7e65cac3fd1ad235577ed649f76f57de"
+   },
+   {
+    "path": "packs/core-hazards/vectors.i8",
+    "asset": "core--packs__core-hazards__vectors.i8",
+    "bytes": 69120,
+    "sha256": "34c52b103cd8dc235a1b2299dad916d68f87aee75934bbfa767270e4e4effbca",
+    "md5": "20ea1e4e64c2bd28d917ba5498db0960"
+   },
+   {
+    "path": "packs/core-hazards/vectors.scale",
+    "asset": "core--packs__core-hazards__vectors.scale",
+    "bytes": 360,
+    "sha256": "47c5d81ad692a88e234ce23d33085ab9eca038c094f9fd3ac08329772d6c09b8",
+    "md5": "75ea37480e06276900308760f780d45c"
+   },
+   {
+    "path": "packs/core-health/chunks.sqlite",
+    "asset": "core--packs__core-health__chunks.sqlite",
+    "bytes": 323584,
+    "sha256": "e3ba8d69d977b6793f472f696a18188d64918cd8677b1821618b7aaeac231f2f",
+    "md5": "538582578f32661535dd0f7ff439e60a"
+   },
+   {
+    "path": "packs/core-health/manifest.json",
+    "asset": "core--packs__core-health__manifest.json",
+    "bytes": 26656,
+    "sha256": "c930b4ab2c1b9c706cf5062e7db15fdce03f482b80e820cff0184a44b4b694a0",
+    "md5": "eebf7afb167f6eb786d63922f169e00f"
+   },
+   {
+    "path": "packs/core-health/sentences.i8",
+    "asset": "core--packs__core-health__sentences.i8",
+    "bytes": 327936,
+    "sha256": "eb510508ea9c50c572eb3c55dc97db99297f0e02624786b02bbd5301321dd938",
+    "md5": "05bbfdd7e723d32143680332616513f5"
+   },
+   {
+    "path": "packs/core-health/sentences.idx",
+    "asset": "core--packs__core-health__sentences.idx",
+    "bytes": 864,
+    "sha256": "b5b9e0bba17994a64246518c8709b68703668379198cd07f91302bcd5c71a4b5",
+    "md5": "d89850a7ea3059b60573ad466fd41bf0"
+   },
+   {
+    "path": "packs/core-health/vectors.i8",
+    "asset": "core--packs__core-health__vectors.i8",
+    "bytes": 165120,
+    "sha256": "66c8b43d2fa4d3eb11bdbd476cee06c48a13b7c7927f38398b4d5fbc70d352b0",
+    "md5": "ec62f3c3b1de3bce6ad0496141cd8b50"
+   },
+   {
+    "path": "packs/core-health/vectors.scale",
+    "asset": "core--packs__core-health__vectors.scale",
+    "bytes": 860,
+    "sha256": "e02b3ea1c24436528cfdb4e0d16a6e3ccb96365b58ffa97637e57410c88ad4ce",
+    "md5": "10b67d3b1e1dde915896cb83ae9ff448"
+   },
+   {
+    "path": "packs/core-signaling/chunks.sqlite",
+    "asset": "core--packs__core-signaling__chunks.sqlite",
+    "bytes": 73728,
+    "sha256": "f458dc5210d1022e9a1b89a8a55f0543531b9f9abd796991cae4cc3d6f282fcf",
+    "md5": "79bc6d8bf72467e75740e51224e2a4be"
+   },
+   {
+    "path": "packs/core-signaling/manifest.json",
+    "asset": "core--packs__core-signaling__manifest.json",
+    "bytes": 25208,
+    "sha256": "8932538f81850fd211f1da719f361d456fe9b4767f43c7aea6a2ce15281ec59a",
+    "md5": "44a5887fba6b35e8748ac49fe4864e99"
+   },
+   {
+    "path": "packs/core-signaling/sentences.i8",
+    "asset": "core--packs__core-signaling__sentences.i8",
+    "bytes": 68608,
+    "sha256": "e2c5a351a4083c1fa83e1ca311d4819f39d9fc24b04a5b11263b1d8a49a136b6",
+    "md5": "73c035e88a203cdbaa96e52feca513c8"
+   },
+   {
+    "path": "packs/core-signaling/sentences.idx",
+    "asset": "core--packs__core-signaling__sentences.idx",
+    "bytes": 76,
+    "sha256": "13f077b7bfd959b00f36f20056f685307083d2d0bb5a34bac0c589b0352a723a",
+    "md5": "56ec6d02bca201241ca579a6bf234a2f"
+   },
+   {
+    "path": "packs/core-signaling/vectors.i8",
+    "asset": "core--packs__core-signaling__vectors.i8",
+    "bytes": 13824,
+    "sha256": "83bbcd435b9c52fa0e0e5d3069649b3dc078ff2a0e923984c670cac21bf082e6",
+    "md5": "eb14cdfbab7151ed613591afe4331026"
+   },
+   {
+    "path": "packs/core-signaling/vectors.scale",
+    "asset": "core--packs__core-signaling__vectors.scale",
+    "bytes": 72,
+    "sha256": "b058c90c3e53283a9193a913c4ab77613b43b811b290c462cea35364e1c37e31",
+    "md5": "dbcd317e961f75f484fe0a9ed22fc546"
+   },
+   {
+    "path": "packs/core-survival/chunks.sqlite",
+    "asset": "core--packs__core-survival__chunks.sqlite",
+    "bytes": 1241088,
+    "sha256": "431c5c09d1c37adb6970ea7dbefb704e971be3bc31d7a506a98be87ede197617",
+    "md5": "9b5684b562e142e8ec80ba3aac7d5b9f"
+   },
+   {
+    "path": "packs/core-survival/manifest.json",
+    "asset": "core--packs__core-survival__manifest.json",
+    "bytes": 25178,
+    "sha256": "a182503e681a02dcce92bec808c774cc66c1041ff625395045ff09c6c94a3986",
+    "md5": "a778d4cc33e354902d627202ca563b04"
+   },
+   {
+    "path": "packs/core-survival/sentences.i8",
+    "asset": "core--packs__core-survival__sentences.i8",
+    "bytes": 1998336,
+    "sha256": "53b4b65cecd6cdcaf0d9e79fd3948bb04afe5773153f2121ff398339ade402e7",
+    "md5": "023c9d376f2b650da35410b0336df1d3"
+   },
+   {
+    "path": "packs/core-survival/sentences.idx",
+    "asset": "core--packs__core-survival__sentences.idx",
+    "bytes": 2044,
+    "sha256": "3f82c39708cffb5d4cab7af545fff305c5472dfa2e28d850101cead5b29e2366",
+    "md5": "8f0c3af39e17ebd4b0e6d09cd93fac52"
+   },
+   {
+    "path": "packs/core-survival/vectors.i8",
+    "asset": "core--packs__core-survival__vectors.i8",
+    "bytes": 391680,
+    "sha256": "db65162ac19b0716bb100a07ca1725858701cc4b9b93c79b2fdfecf4695d8dce",
+    "md5": "b95e5fdcf1b3843424120a0a9556f9e6"
+   },
+   {
+    "path": "packs/core-survival/vectors.scale",
+    "asset": "core--packs__core-survival__vectors.scale",
+    "bytes": 2040,
+    "sha256": "b3af829b9e8afe86eb62f3895cae46a8b1f4e65ad2acdb005f1f2f6a6422db62",
+    "md5": "c3a217b887dbff013a0211250cbfa796"
+   },
+   {
+    "path": "packs/core-tips-nps/chunks.sqlite",
+    "asset": "core--packs__core-tips-nps__chunks.sqlite",
+    "bytes": 339968,
+    "sha256": "ec2011fb23d6382988d0b83a06b8a831147df68d25ab3f4eeb0113cc056627f8",
+    "md5": "f35f785b6f9663d88fefe4243cca2e05"
+   },
+   {
+    "path": "packs/core-tips-nps/manifest.json",
+    "asset": "core--packs__core-tips-nps__manifest.json",
+    "bytes": 25170,
+    "sha256": "c9a4b7376c15fd4933abad045712099e60e185b9bb0c689a840452d5b1f41be1",
+    "md5": "aa14a3a196eaff4e58c403b845f36fc1"
+   },
+   {
+    "path": "packs/core-tips-nps/sentences.i8",
+    "asset": "core--packs__core-tips-nps__sentences.i8",
+    "bytes": 379648,
+    "sha256": "c330c0415377fad3b3e54cbc8ba65372adec00626e3542d0dcd66efe7cfc1168",
+    "md5": "166914a36328050c0e23842465d7cf56"
+   },
+   {
+    "path": "packs/core-tips-nps/sentences.idx",
+    "asset": "core--packs__core-tips-nps__sentences.idx",
+    "bytes": 712,
+    "sha256": "7db7ad62a21e44840de2f28ccaa90ac04f1c98e705aebc50afa48e7ed7142e22",
+    "md5": "2ca29489c325c9073586ef7dec1b3b8b"
+   },
+   {
+    "path": "packs/core-tips-nps/vectors.i8",
+    "asset": "core--packs__core-tips-nps__vectors.i8",
+    "bytes": 135936,
+    "sha256": "b666dccfc1db3e91a3111f82d5a01488b5cfc5e82298f468ae6822309aa7af14",
+    "md5": "81218fe9cc62494ea001c2084ae756ee"
+   },
+   {
+    "path": "packs/core-tips-nps/vectors.scale",
+    "asset": "core--packs__core-tips-nps__vectors.scale",
+    "bytes": 708,
+    "sha256": "b91b4b9a3edac8617ea4155366ee0f50c8383f7c036280ac4e063d89b3f60c0d",
+    "md5": "88afb6aee949770e071533c26eae2f87"
+   },
+   {
+    "path": "packs/core-tips-wikivoyage/chunks.sqlite",
+    "asset": "core--packs__core-tips-wikivoyage__chunks.sqlite",
+    "bytes": 446464,
+    "sha256": "515441b96c09231695e949cad344225fe4ca8c8060e2161bf621d07dafb85bc9",
+    "md5": "81275014377e5879854df1ff6a38a406"
+   },
+   {
+    "path": "packs/core-tips-wikivoyage/manifest.json",
+    "asset": "core--packs__core-tips-wikivoyage__manifest.json",
+    "bytes": 30284,
+    "sha256": "9ef394b67d0e9cabecf71b18f761d448024a3d92daf6b0e12394ec175cd15123",
+    "md5": "723132ac6fef8c2d13e938c4fcb8916a"
+   },
+   {
+    "path": "packs/core-tips-wikivoyage/sentences.i8",
+    "asset": "core--packs__core-tips-wikivoyage__sentences.i8",
+    "bytes": 406272,
+    "sha256": "ada767dcc38b5cb87c0202b0239710ae6c1cc36bf4adefc1f22d79d719100a61",
+    "md5": "de90423e8db71b1aea489f4fc44108c0"
+   },
+   {
+    "path": "packs/core-tips-wikivoyage/sentences.idx",
+    "asset": "core--packs__core-tips-wikivoyage__sentences.idx",
+    "bytes": 864,
+    "sha256": "49ef461408ea9ee43c51647a5a0ceb4194ca8ba58da6df6cc1505660d734ac74",
+    "md5": "5a93b365aa3c33b9146002ae3a5fd617"
+   },
+   {
+    "path": "packs/core-tips-wikivoyage/vectors.i8",
+    "asset": "core--packs__core-tips-wikivoyage__vectors.i8",
+    "bytes": 165120,
+    "sha256": "3668ea843cdff1610dc2d06fbeb6dafbc35d622e793f7a189f5d945c0d617b48",
+    "md5": "8ae1799a8b7e37b8e59a7615597c406b"
+   },
+   {
+    "path": "packs/core-tips-wikivoyage/vectors.scale",
+    "asset": "core--packs__core-tips-wikivoyage__vectors.scale",
+    "bytes": 860,
+    "sha256": "d35311d86bd9096609aa0c5c1bf770ba61836b376c4a982cc2468a84cebdef6f",
+    "md5": "5f304f2fe3d0ef482185ea6cca3a0ee9"
+   },
+   {
+    "path": "packs/core-wildlife-safety/chunks.sqlite",
+    "asset": "core--packs__core-wildlife-safety__chunks.sqlite",
+    "bytes": 163840,
+    "sha256": "6135f142b529e451a138e430943bc3ab6115856a5fab1d90fb3db35fe04e8037",
+    "md5": "f02961ef203b9d5fd8934a3a131580cb"
+   },
+   {
+    "path": "packs/core-wildlife-safety/manifest.json",
+    "asset": "core--packs__core-wildlife-safety__manifest.json",
+    "bytes": 25179,
+    "sha256": "2ed182035b64ae0bf9fabd2a5724fc6c671dcf29b39e60f4036c3cd22ab66f29",
+    "md5": "f01b53ef26780f35933a9b31d67fdc95"
+   },
+   {
+    "path": "packs/core-wildlife-safety/sentences.i8",
+    "asset": "core--packs__core-wildlife-safety__sentences.i8",
+    "bytes": 139520,
+    "sha256": "5fc84d40119fb0311e012e68ca6c8de8cef9562090e9c80d9e32ddddb4e40cde",
+    "md5": "68a78e7d1019602cc9dcf6e240f54d4c"
+   },
+   {
+    "path": "packs/core-wildlife-safety/sentences.idx",
+    "asset": "core--packs__core-wildlife-safety__sentences.idx",
+    "bytes": 332,
+    "sha256": "353f4e7df991cb6c14aca04d0a250eff78928aeec444ea3979aac0fb17cadb67",
+    "md5": "9ffa2cfc851c74f6bc953167b1cd2cab"
+   },
+   {
+    "path": "packs/core-wildlife-safety/vectors.i8",
+    "asset": "core--packs__core-wildlife-safety__vectors.i8",
+    "bytes": 62976,
+    "sha256": "ef76b502aa1062e8bed1e9a01627a1b50cec5697adc0187d7486907943dea81e",
+    "md5": "8b5c8cff7ffe8548d3ca5fcfd9161459"
+   },
+   {
+    "path": "packs/core-wildlife-safety/vectors.scale",
+    "asset": "core--packs__core-wildlife-safety__vectors.scale",
+    "bytes": 328,
+    "sha256": "25b99df15ce0cfb73897be3a001b3c5d07d0b4051ddf612f0b98c35275111eb2",
+    "md5": "eaf9d07dee78c548f42ecadcf559edd0"
+   }
+  ]
  }
 }

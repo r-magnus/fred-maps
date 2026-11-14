@@ -54,3 +54,22 @@ Only the derived lines are distributed, not the elevation tiles.
 - **Search vectors:** produced with Google's EmbeddingGemma-300M. Under the
   Gemma Terms of Use, "Google claims no rights in Outputs you generate using
   Gemma", and outputs are not model derivatives.
+
+## The core download (release `core-2026-11`)
+
+Its own `licenses/` folder (assets `core--licenses__*`) holds the full texts;
+`NOTICE.txt` there lists every source. In short:
+
+- **`Qwen3-1.7B-Q4_K_M.gguf`:** Qwen3-1.7B by the Qwen team, Apache License
+  2.0 (`APACHE-2.0.txt`). Unmodified.
+- **`embeddinggemma-300M-Q8_0.gguf`:** Google EmbeddingGemma 300M, unmodified.
+  Gemma is provided under and subject to the Gemma Terms of Use found at
+  ai.google.dev/gemma/terms (copy: `GEMMA-TERMS-OF-USE.txt`). Its use is
+  subject to the Gemma Prohibited Use Policy (`GEMMA-PROHIBITED-USE-POLICY.txt`),
+  which binds everyone who uses Fred.
+- **Guides (`packs/core-*`):** public-domain US Government sources (US Army
+  ATP 4-02.11, ATP 3-50.21, FM 21-76; CDC, NIH, EPA, FDA, National Park
+  Service, National Weather Service, Forest Service, BLM, US Public Health
+  Service); WHO/ICRC *Basic Emergency Care* (2018), **CC BY-NC-SA 3.0 IGO,
+  non-commercial use only**, in `core-firstaid` and the field cards that quote
+  it; Wikivoyage articles, CC BY-SA 4.0, in `core-tips-wikivoyage`.

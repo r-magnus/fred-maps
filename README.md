@@ -1,13 +1,20 @@
 # Fred maps
 
-Offline map bundles for [Fred](https://github.com/r-magnus/fred), an offline
-wilderness assistant: one bundle per US state, plus DC and Puerto Rico. The
-Fred app downloads a state's bundle when the user picks that state.
+Downloads for [Fred](https://github.com/r-magnus/fred), an offline wilderness
+assistant:
+
+- **State map bundles** (release `maps-2026-09`): one per US state, plus DC and
+  Puerto Rico. The Fred app downloads a state's bundle when the user picks
+  that state.
+- **The core download** (release `core-2026-11`, 1.45 GB): the two models and
+  the first-aid, survival and outdoor guides every phone needs before Fred can
+  answer. The setup wizard downloads it. Files over 100 MB are also published
+  in 100 MB pieces, so a dropped connection resumes from the last whole piece.
 
 The files are attached to this repo's
 [releases](https://github.com/r-magnus/fred-maps/releases), not stored in git.
-`index.json` lists every state's files, sizes, SHA-256 checksums and release
-asset names.
+`index.json` lists every state's files, and under `core` the core download's,
+with sizes, checksums and release asset names.
 
 ## What a bundle holds
 
@@ -28,5 +35,7 @@ This data comes from several sources, each under its own terms. See
 alongside it. In short: the basemap is OpenStreetMap data under the ODbL;
 everything else is public domain or open data with attribution.
 
-Nothing here is medical content. Fred's own code is private and is not in this
-repository.
+The state bundles hold no medical content. The core download's guides include
+first aid, quoted from public-domain US Government manuals and WHO/ICRC *Basic
+Emergency Care*; they are reference text for an app, not medical advice. Fred's
+own code is private and is not in this repository.
