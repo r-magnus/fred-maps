@@ -3,7 +3,7 @@
 Checked 2026-09-28. Each component keeps its source's licence; nothing here
 relicenses anyone's data.
 
-## Basemap: `map-<ST>-z14.pmtiles`
+## Basemap: `map-<ST>-z14.pmtiles`, and the regional and overview maps
 
 - **Source:** Protomaps daily planet build (https://build.protomaps.com), cut to
   each state's bounding box.
@@ -12,8 +12,11 @@ relicenses anyone's data.
 - **Required credit, shown with the map:** "© OpenStreetMap contributors"
   (https://www.openstreetmap.org/copyright).
 - These extracts are offered under the same licence.
+- The same applies to the regional downloads (`map-<ST>-<region>.pmtiles`,
+  `map-<ST>-overview.pmtiles`) and the nationwide `map-US-overview.pmtiles`,
+  which are further cuts of Protomaps builds.
 
-## Contours: `contours-<ST>.pmtiles`
+## Contours: `contours-<ST>.pmtiles` and `contours-<ST>-<region>.pmtiles`
 
 Contour lines computed from Mapterhorn terrain tiles
 (https://mapterhorn.com, source list https://download.mapterhorn.com/attribution.json).
@@ -32,6 +35,13 @@ Only the derived lines are distributed, not the elevation tiles.
   Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the
   European Union and ESA; all rights reserved".
 - Credit for the tiles: "Terrain: Mapterhorn".
+
+## Region outlines: `regions-<ST>.json`
+
+- **Source:** US Census Bureau cartographic boundary files (counties, 1:500k,
+  https://www2.census.gov/geo/tiger/GENZ2023/shp/), counties grouped into
+  regions and simplified.
+- **Terms:** public domain (US Government work). Credit: "US Census Bureau".
 
 ## Coverage: `coverage-<ST>-voice.bin`
 
